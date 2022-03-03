@@ -1,0 +1,94 @@
+#news {
+  .intro{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .el-row--flex{
+    flex-wrap:wrap;
+  }
+  .article{
+    margin-bottom: 25px;
+    &.large{
+      .title--article{
+        color: $orange;
+        font-size:2em;
+      }
+    }
+  }
+
+  .iframe-news{
+    min-height: 570px;
+  }
+  h2{
+    margin: 20px 0;
+  }
+  .title--article{
+    margin: 15px auto;
+    transition: .3s ease-in-out;
+    @include typo(1.58em, #000000, bold);
+    display: inline-block;
+    & + p{
+      margin: 0;
+    }
+    &:hover{
+      color: #ff7900;
+    }
+
+  }
+
+  .challenge {
+    background: url(../assets/body/orangeFab_5g.jpg) no-repeat center top;
+    background-size: contain;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 70px;
+    @media screen and (max-width: $break-small + 2) {
+      height: 500px;
+    }
+    @media screen and (max-width: 426px) {
+      height: 550px;
+    }
+    p {
+      color: #ff7900;
+      font-size: 18px;
+      width: 70%;
+      margin-bottom: 3em;
+    }
+    a {
+      color: black;
+      text-transform: uppercase;
+      font-weight: bold;
+      padding: 10px 20px;
+      border: 2px solid black;
+      &:hover {
+        color: #ff7900;
+        border: 2px solid #ff7900;
+      }
+    }
+  }
+  .title--article {
+    span {
+      font-size: 0.9em;
+    }
+  }
+  .center--article {
+    text-align: center;
+  }
+  .link--article {
+    color: black;
+    padding: 10px;
+    border: 2px solid black;
+    @media screen and (max-width: 426px) {
+      font-size: 0.8em;
+    }
+    &:hover {
+      border-color: #ff7900;
+    }
+  }
+}

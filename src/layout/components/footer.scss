@@ -1,0 +1,126 @@
+footer {
+  margin: 0px auto 0 auto;
+  padding: 0 !important;
+  background-color: #ccc;
+  z-index: 0;
+  width: 100%;
+  max-width: 1280px;
+  @media screen and (max-width: $break-small) {
+    margin-top: 0px;
+  }
+  .footer-container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1280px;
+  }
+  #footer {
+    padding: 0px 50px 25px 50px;
+    @media screen and (max-width: $break-small) {
+      padding: 20px;
+    }
+    .footer-font-size {
+      font-size: 14px;
+    }
+    p {
+      font-weight: normal;
+      font-size: 18px;
+      margin: auto 0;
+    }
+    li{
+      padding: 0.3125rem 0;
+      @media screen and (max-width: $break-small) {
+        padding: 0;
+      }
+      a{    
+        line-height: 1.2;
+        padding: 0;
+        text-decoration: underline;
+        font-weight: 700;
+      }
+    }
+  }
+  #subFooter {
+    background-color: $black;
+    padding: 5px 50px;
+    div {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      align-items: center;
+    }
+    p {
+      color: $white;
+      font-weight: normal;
+      font-size: 12px;
+      display: inline;
+    }
+    .socials {
+      line-height: 0;
+      margin: 0;
+      a {
+        margin: 0 2px;
+        img {
+          width: 100%;
+          max-width: 25px;
+        }
+      }
+    }
+  }
+  h6 {
+    color: $black;
+    margin: 35px 0 25px 0;
+    font-size: 1rem;
+    line-height: 1.125;
+    letter-spacing: -.00625rem;
+    @media screen and (max-width: $break-small) {
+      margin: 10px 0 25px 0;
+      font-size: 15px;
+    }
+    a {
+      color: $darkgrey;
+      &:hover {
+        color: $orange;
+      }
+    }
+    span {
+      font-weight: normal;
+    }
+  }
+  p {
+    color: $darkgrey;
+  }
+  ul {
+    padding: 0;
+    margin: 10px 0;
+    li {
+      list-style-type: none;
+      a {
+        color: $darkgrey;
+        &:hover {
+          color: $orange;
+        }
+      }
+    }
+  }
+  ol {
+    list-style-type: decimal;
+    li {
+      color: $darkgrey;
+    }
+  }
+  .social {
+    margin: 10px 0;
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  .privacy {
+    opacity: 1;
+    font-size: 12px;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

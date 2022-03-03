@@ -1,0 +1,17 @@
+@import "variables.scss";
+@import "mixins.scss";
+@import "style.scss";
+@import "animations.scss";
+
+@import "../layout/components/header.scss";
+@import "../layout/components/footer.scss";
+
+@import "../layout/pages/home/home.scss";
+@import "../layout/pages/who_we_are/whoweare.scss";
+@import "../layout/pages/our_program/ourprogram.scss";
+@import "../layout/pages/start_ups/start_ups.scss";
+@import "../layout/pages/news/news.scss";
+@import "../layout/pages/faq/faq.scss";
+@import "../layout/pages/join_us/join_us.scss";
+
+@import "../layout/steps/components/steps.scss";
