@@ -8,18 +8,19 @@
         <div id="apply" class="content-layout white apply">
           <el-row class="content">
             <h2 class="subtitle" v-html="$t('pages.ourprogram.apply.title')" style="margin-bottom: 30px"></h2>
+            <p class="intro" v-html="$t('pages.ourprogram.apply.intro')"></p>
+            <img class="theme_picture" :src="require('@/assets/body/theme.jpg')">
 
             <apply/>
 
-            <h2 class="subtitle marged" v-html="$t('pages.ourprogram.timeline.title')" style="margin-bottom: 30px"></h2>
-            <ul class="timeline_list">
-              <li v-for="(step, index) in this.$t('pages.ourprogram.timeline.steps')" :key="index" v-html="step.text"></li>
-            </ul>
+            <h2 id="timeline" class="subtitle marged" v-html="$t('pages.ourprogram.timeline.title')" style="margin-bottom: 30px"></h2>
+            <img class="timeline_picture" :src="require('@/assets/body/timeline.jpg')">
+            <a :href="$t('pages.ourprogram.ServiceOffer.url')" class="cta bordered" v-html="$t('pages.ourprogram.ServiceOffer.cta')"></a>
           </el-row>
         </div>
         <!--  -->
         <!--  -->
-        <div id="ServiceOffer" class="content-layout black">
+        <div id="ServiceOffer" class="content-layout white">
           <el-row class="content">
             <h2 class="subtitle" v-html="$t('pages.ourprogram.ServiceOffer.title')"></h2>
 
@@ -34,9 +35,14 @@
                 </ul>
               </el-col>
             </div>
-            <h2 class="subtitle marged" v-html="$t('pages.ourprogram.ServiceOffer.Applytitle')"></h2>
-            <img class="theme_picture" :src="require('@/assets/body/theme.jpg')">
-            <a :href="$t('pages.ourprogram.ServiceOffer.cta')" class="cta bordered" v-html="$t('pages.ourprogram.ServiceOffer.cta')">Apply!</a>
+            <h2 class="subtitle marged" v-html="$t('pages.ourprogram.ServiceOffer.eligibility.title')"></h2>
+            <ul class="eligibility_list">
+              <li v-for="(condition, index) in this.$t('pages.ourprogram.ServiceOffer.eligibility.conditions')" :key="index" v-html="condition.text"></li>
+            </ul>
+            <div class="cta_container">
+              <a :href="$t('pages.ourprogram.ServiceOffer.url')" class="cta bordered" v-html="$t('pages.ourprogram.ServiceOffer.cta')"></a>
+              <a :href="$t('pages.ourprogram.ServiceOffer.url_startups')" class="cta bordered" v-html="$t('pages.ourprogram.ServiceOffer.cta_startups')"></a>
+            </div>
           </el-row>
         </div>
         <!--  -->

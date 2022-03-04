@@ -4,6 +4,7 @@
     display: block;
     margin: 0 auto;
     text-align: center;
+    margin-bottom: 30px;
   }
   .el-row--flex{
     flex-wrap:wrap;
@@ -17,7 +18,27 @@
       }
     }
   }
+  .areas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 
+    .area{
+      width: 100%;
+      max-width: 250px;
+      margin: 5px;
+      img{
+        width: 100%;
+      }
+      p{
+        color: $orange;
+        width: 100%;
+        font-weight: bold;
+        text-align: center;
+      }
+    }
+  }
   .iframe-news{
     min-height: 570px;
   }

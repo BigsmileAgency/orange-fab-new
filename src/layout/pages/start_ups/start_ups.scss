@@ -2,6 +2,20 @@
   h1 {
     margin-bottom: 45px;
   }
+  #business{
+    .mipple_container{
+      margin-bottom: 20px;
+      svg{
+        margin: 1px;
+      }
+    }
+    h4{
+      width: 100%;
+      max-width: 350px;;
+      display: block;
+      margin: 20px auto;
+    }
+  }
   .start-content {
     margin-bottom: 30px;
     a {

@@ -1,5 +1,5 @@
 <template>
-  <el-header height="auto" ref="header">
+  <el-header height="auto" ref="header" :class="this.$route.name" >
     <el-row :gutter="1" id="sub-header" ref="subHeader">
       <div ref="burgerMenu" :class="!menu ? 'el-col el-col-24 burger-menu' : 'el-col el-col-24 burger-menu menu-on'" @click="openCloseMenu()">
         <div class="burger" ></div>
@@ -9,7 +9,7 @@
     <el-row id="header" type="flex">
       <div class="header-container">
         <div class="header-title">
-          <router-link :to="{name : 'main_child'}" tag="div">
+          <router-link :to="{name : 'main_child'}" tag="div" class="logo_container">
             <img :src="require('@/assets/logo.svg')" alt>
             <h2 id="header-text">{{ $t('header.title') }}</h2>
           </router-link>
@@ -21,9 +21,7 @@
               <template v-for="(item, index) in this.$t('header.items')">
                 <li v-if="item.subLinks" :key="index" :index="item.name" v-bind:id="index" class="first_level_el expandable closed"  @click="expandNav(index)">
                   <div>
-                    <router-link :to="item.link.hash">
                       {{ item.name }}
-                    </router-link>
                     <i class="el-submenu__icon-arrow el-icon-arrow-down"></i></div>
                   <ul class="subnav">
                     <template v-for="(subitem, index) in item.subLinks" :index="item.name">

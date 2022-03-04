@@ -6,15 +6,21 @@
 
     <el-main class="container">
       <!--  -->
-      <div class="content-layout white">
+      <!-- <div class="content-layout white">
         <el-row class="content">
           <h2 class="subtitle" v-html="$t('pages.news.title1')" style="margin-bottom: 30px"></h2>
           <p class="intro" v-html="$t('pages.news.intro')"></p>
+          <div class="areas">
+            <div class="area" v-for="(area, i) in this.$t('pages.news.areas')" :key="i">
+              <img  :src="require('@/assets/news/'+area.image+'.jpg')">
+              <p v-html="area.title"></p>
+            </div>
+          </div>
         </el-row>
-      </div>
+      </div> -->
       <!--  -->
       <!--  -->
-      <div class="content-layout white">
+      <div id="recent_news" class="content-layout white">
         <el-row class="content">
           <h2 class="subtitle" v-html="$t('pages.news.title2')" style="margin-bottom: 30px"></h2>
           <el-col :md="24">
@@ -32,7 +38,7 @@
       </div>
       <!--  -->
       <!--  -->
-      <div class="content-layout white">
+      <div id="previews_news" class="content-layout white">
         <el-row class="content">
           <h2 class="subtitle" v-html="$t('pages.news.title3')" style="margin-bottom: 30px"></h2>
           <el-col :md="24">

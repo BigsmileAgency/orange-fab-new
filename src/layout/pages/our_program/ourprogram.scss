@@ -5,6 +5,15 @@
         }
     }
     #apply{
+		.intro{
+			width: 100%;
+			text-align: center;
+		}
+		.theme_picture{
+			display: block;
+			max-width: 100%;
+			margin: 0 auto 50px auto;
+		}
         .apply-bloc{
             .bot-bloc{
                 background-color: $black;
@@ -13,6 +22,13 @@
                 }
             }
         }
+		.timeline_picture{
+			width: 100%;
+			max-width: 700px;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
         .timeline_list{
             padding: 0;
             li{
@@ -62,8 +78,9 @@
 			transition: max-height .3s ease-in-out;
             background-color: $white;
 			@media screen and (max-width: $break-small) {
-				width: 49%;
+				width: 100%;
 				margin-bottom: 2%;
+				padding: 20px;
 			}
 			@media screen and (max-width: $break-lsmall) {
 				width: 100%;
@@ -127,6 +144,7 @@
 			height: 158px;
 			opacity: 1;
 			transform: translateY(5%) scale(.8);
+			max-width: 100%;;
 			// &.img--network {
 			//   transform: rotate(-15deg) translate(-40%, -20%)
 			// }
@@ -194,6 +212,34 @@
 						font-size: 15px;
 					}
 				}
+			}
+		}
+        .eligibility_list{
+            padding: 0;
+			opacity: 1;
+            li{
+                font-size: 20px;
+                font-weight: bold;
+                display: block;
+                list-style: none;
+                background-color: $veryLightGrey;
+                text-align: center;
+                width: 100%;
+                max-width: 600px;
+                margin: 0 auto 10px auto;
+                padding: 10px;
+				color: $black;
+            }
+        }
+		.cta_container{
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-wrap: wrap;
+			margin-top: 40px;
+			.cta{
+				margin: 10px 20px;
 			}
 		}
 	}

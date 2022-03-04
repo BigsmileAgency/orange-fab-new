@@ -5,8 +5,8 @@ include './vendor/autoload.php';
 use \Firebase\JWT\JWT;
 
 class helper {
-    public static $base_url = 'https://orangefab.be/';
-    // public static $base_url = 'https://orangefab.staging.bigsmile.be/';
+    // public static $base_url = 'https:localhost:3333/';
+    public static $base_url = 'orangefab.bigsmile.be';
     public static $auth_header = 'Auth';
     private static $instance;
     private static $key = "$546FEQFp$(4";

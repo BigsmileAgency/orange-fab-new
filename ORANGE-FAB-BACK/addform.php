@@ -132,11 +132,12 @@ $mail->CharSet = 'UTF-8';
 
 $mail->SetFrom('hello@orangefab.be', 'OrangeFab');
 $mail->AddAddress($email);
-// $mail->AddBCC('juliette.malherbe@orange.com');
+$mail->AddBCC('juliette.malherbe@orange.com');
 // $mail->AddBCC('camille.suratteau@orange.com');
-// $mail->AddBCC('oceane@bigsmile.be');
-// $mail->AddBCC('ariane.chan@orange.com');
-$mail->AddBCC('olivier@bigsmile.be');
+$mail->AddBCC('ariane.chan@orange.com');
+// $mail->AddBCC('olivier@bigsmile.be', "Olivier");
+// $mail->AddBCC('dylan@bigsmile.be', "dylan");
+// $mail->AddBCC('jean@bigsmile.be', "jean");
 
 $mail->IsHTML(true);
 

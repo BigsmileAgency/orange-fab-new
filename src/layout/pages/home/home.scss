@@ -6,7 +6,7 @@
   background-repeat: no-repeat;
   background-position: 50% 50%;
   margin-top: 112px;
-  height: 550px;
+  height: 450px;
   display: flex!important;
   @media screen and (max-width: $break-small) {
     height: 350px;
@@ -40,6 +40,11 @@
         -webkit-transition: all .3s ease;
         transition: all .3s ease;
         margin-top: 10px;
+        min-width: 150px;
+        text-align: center;
+        @media screen and (max-width: $break-small) {
+          padding: 0;
+        }
         &:hover{
           background-color: $orange;
           color: $white;
@@ -48,8 +53,8 @@
 
       @media screen and (max-width: $break-small) {
         margin-bottom: 0px;
-        font-size: 4vw;
-        line-height: 4vw;
+        font-size: 9vw;
+        line-height: 9vw;
         justify-content: flex-start;
         text-align: left;
         .header_button{
@@ -74,13 +79,15 @@
         color: $orange;
       }
     }
+    p.subtext{
+      text-align: center;
+    }
   }
 }
 
 #welcome{
   h3.subtitle{
     margin-top: 50px;
-    color: $orange;
     font-size:1.8em;;
   }
   iframe{
@@ -153,6 +160,7 @@
   img{
     margin: 0 auto;
     display: block;
+    max-width: 100%;;
   }
 }
 
@@ -269,7 +277,7 @@
       margin: 0;
       padding: 25px 0;
       background-position: center;
-      background-size: auto 168px;
+      background-size: auto 135px;
       background-repeat: no-repeat;
       height: 168px;
       img {
@@ -306,7 +314,7 @@
       background-color: $white;
       text-align: left;
       padding: 15px 20px;
-      min-height: 120px;
+      min-height: 140px;
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
@@ -320,6 +328,7 @@
         margin: 0;
         font-weight: 600;
         font-size: 0.8em;
+        text-align: left;
       }
       @media screen and (max-width: $break-small) {
         text-align: center;
@@ -336,65 +345,69 @@
 
   }
 }
-
-.previous{
-  .grid{
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-  }
-  &__content{
-    display: flex;
-    align-items: center;
-    margin-bottom: 40px;
-    @media screen and (max-width: $break-small) {
-      flex-direction: column;
-    }
-    &:last-child{
-      margin-bottom: 0;
-    }
-    &--txt{
+.container{
+  .previous{
+    .grid{
+      margin-top: 40px;
       display: flex;
       flex-direction: column;
-      @media screen and (max-width: $break-small) {
-        margin-top: 25px;
-      }
-      p{
-        color: $black;
-        font-weight: 600;
-        font-style: italic;
-        margin: 0 0 0 30px;
-        &.position{
-          font-weight: normal;
-          font-style: normal;
-          margin: 20px 0 0 30px;
-        }
-
-        @media screen and (max-width: $break-small) {
-          margin: 0;
-          text-align: center;
-          &.position{
-            margin: 20px 0 0 0;
-          }
-        }
-      }
     }
-    &:nth-child(even){
-      flex-direction: row-reverse;
+    &__content{
+      display: flex;
+      align-items: center;
+      margin-bottom: 40px;
       @media screen and (max-width: $break-small) {
         flex-direction: column;
       }
-      p{
-        text-align: right;
-        margin: 0 30px 0 0;
-        &.position{
-          margin: 20px 30px 0 0;
-        }
+      &:last-child{
+        margin-bottom: 0;
+      }
+      &--txt{
+        display: flex;
+        flex-direction: column;
         @media screen and (max-width: $break-small) {
-          margin: 0;
-          text-align: center;
+          margin-top: 25px;
+        }
+        p{
+          color: $black;
+          font-weight: 600;
+          font-style: italic;
+          margin: 0 0 0 30px;
+          text-align: left;
           &.position{
-            margin: 20px 0 0 0;
+            font-weight: normal;
+            font-style: normal;
+            margin: 20px 0 0 30px;
+          }
+          span{
+            color: $orange;
+          }
+          @media screen and (max-width: $break-small) {
+            margin: 0;
+            text-align: center;
+            &.position{
+              margin: 20px 0 0 0;
+            }
+          }
+        }
+      }
+      &:nth-child(even){
+        flex-direction: row-reverse;
+        @media screen and (max-width: $break-small) {
+          flex-direction: column;
+        }
+        p{
+          text-align: right;
+          margin: 0 30px 0 0;
+          &.position{
+            margin: 20px 30px 0 0;
+          }
+          @media screen and (max-width: $break-small) {
+            margin: 0;
+            text-align: center;
+            &.position{
+              margin: 20px 0 0 0;
+            }
           }
         }
       }

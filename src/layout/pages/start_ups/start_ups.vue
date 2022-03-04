@@ -33,11 +33,47 @@
         </div>
         <div id="business" class="content-layout white" v-view.once="onceHandler">
           <el-row class="content">
-            <h2 class="subtitle" v-html="$t('pages.whoWeAre.business.title')"></h2>
-
-            <el-col :xs="24" :sm="8" :md="4"  v-for="(bloc, i) in this.$t('pages.whoWeAre.business.acceleration')" :key="i">
-              <span ref="num" class="numb" :class="bloc.color" :data-value="bloc.value">0</span>
-              <h6>{{ bloc.title }}</h6>
+            <h2 class="subtitle" v-html="$t('pages.whoWeAre.season4.title')"></h2>
+            <el-col :xs="24" :sm="12" :md="12"  v-for="(bloc, i) in this.$t('pages.whoWeAre.season4.acceleration1')" :key="i">
+              <div class="mipple_container">
+                <svg class="mipple1" v-for="(n, index) in 10" xmlns="http://www.w3.org/2000/svg" width="24.947" height="63.729" viewBox="0 0 24.947 63.729" style="opacity: .2">
+                  <g id="Groupe_78" data-name="Groupe 78" transform="translate(-5.007 -8.569)">
+                    <path id="Groupe_78" fill="#50be87" d="M30,31.6v13.6c0,1.3-1,2.3-2.3,2.3l0,0
+                      c-1.3,0-2.3-1-2.3-2.3V32.7c0-0.2-0.2-0.4-0.4-0.4l0,0c-0.2,0-0.4,0.2-0.4,0.4v36.4c0,1.8-1.4,3.2-3.2,3.2c0,0,0,0,0,0l0,0
+                      c-1.8,0-3.2-1.4-3.2-3.2l0,0V49.7c0-0.3-0.3-0.6-0.6-0.6l0,0c-0.3,0-0.6,0.3-0.6,0.6v19.5c0,1.8-1.4,3.2-3.2,3.2c0,0,0,0,0,0l0,0
+                      c-1.8,0-3.2-1.4-3.2-3.2l0,0V32.5c0-0.2-0.2-0.4-0.4-0.4l0,0c-0.2,0-0.4,0.2-0.4,0.4v12.7c0,1.3-1,2.3-2.3,2.3l0,0
+                      c-1.3,0-2.3-1-2.3-2.3V31.6c0-4.8,3.9-8.7,8.7-8.7h7.5C26,22.9,30,26.8,30,31.6C30,31.6,30,31.6,30,31.6z M17.5,8.6
+                      c3.7,0,6.7,3,6.7,6.7s-3,6.7-6.7,6.7s-6.7-3-6.7-6.7S13.8,8.6,17.5,8.6z"/>
+                  </g>
+                </svg>
+              </div>
+              <span ref="num" class="numb" :class="bloc.color" :data-value="bloc.value">0</span></span><span class="numb green">%</span>
+              <h4>{{ bloc.title }}</h4>
+            </el-col>
+            <el-col :xs="24" :sm="12" :md="12"  v-for="(bloc, i) in this.$t('pages.whoWeAre.season4.acceleration2')" :key="i">
+              <div class="mipple_container">
+                <svg class="mipple2" v-for="(n, index) in 9" xmlns="http://www.w3.org/2000/svg" width="24.947" height="63.729" viewBox="0 0 24.947 63.729" style="opacity: .2">
+                  <g id="Groupe_78" data-name="Groupe 78" transform="translate(-5.007 -8.569)">
+                    <path id="Groupe_78" fill="#9164CD" d="M30,31.6v13.6c0,1.3-1,2.3-2.3,2.3l0,0
+                      c-1.3,0-2.3-1-2.3-2.3V32.7c0-0.2-0.2-0.4-0.4-0.4l0,0c-0.2,0-0.4,0.2-0.4,0.4v36.4c0,1.8-1.4,3.2-3.2,3.2c0,0,0,0,0,0l0,0
+                      c-1.8,0-3.2-1.4-3.2-3.2l0,0V49.7c0-0.3-0.3-0.6-0.6-0.6l0,0c-0.3,0-0.6,0.3-0.6,0.6v19.5c0,1.8-1.4,3.2-3.2,3.2c0,0,0,0,0,0l0,0
+                      c-1.8,0-3.2-1.4-3.2-3.2l0,0V32.5c0-0.2-0.2-0.4-0.4-0.4l0,0c-0.2,0-0.4,0.2-0.4,0.4v12.7c0,1.3-1,2.3-2.3,2.3l0,0
+                      c-1.3,0-2.3-1-2.3-2.3V31.6c0-4.8,3.9-8.7,8.7-8.7h7.5C26,22.9,30,26.8,30,31.6C30,31.6,30,31.6,30,31.6z M17.5,8.6
+                      c3.7,0,6.7,3,6.7,6.7s-3,6.7-6.7,6.7s-6.7-3-6.7-6.7S13.8,8.6,17.5,8.6z"/>
+                  </g>
+                </svg><svg width="24.947" height="63.729" viewBox="0 0 24.947 63.729" style="opacity: .2">
+                  <g id="Groupe_78" data-name="Groupe 78" transform="translate(-5.007 -8.569)">
+                    <path id="Groupe_78" fill="#9164CD" d="M30,31.6v13.6c0,1.3-1,2.3-2.3,2.3l0,0
+                      c-1.3,0-2.3-1-2.3-2.3V32.7c0-0.2-0.2-0.4-0.4-0.4l0,0c-0.2,0-0.4,0.2-0.4,0.4v36.4c0,1.8-1.4,3.2-3.2,3.2c0,0,0,0,0,0l0,0
+                      c-1.8,0-3.2-1.4-3.2-3.2l0,0V49.7c0-0.3-0.3-0.6-0.6-0.6l0,0c-0.3,0-0.6,0.3-0.6,0.6v19.5c0,1.8-1.4,3.2-3.2,3.2c0,0,0,0,0,0l0,0
+                      c-1.8,0-3.2-1.4-3.2-3.2l0,0V32.5c0-0.2-0.2-0.4-0.4-0.4l0,0c-0.2,0-0.4,0.2-0.4,0.4v12.7c0,1.3-1,2.3-2.3,2.3l0,0
+                      c-1.3,0-2.3-1-2.3-2.3V31.6c0-4.8,3.9-8.7,8.7-8.7h7.5C26,22.9,30,26.8,30,31.6C30,31.6,30,31.6,30,31.6z M17.5,8.6
+                      c3.7,0,6.7,3,6.7,6.7s-3,6.7-6.7,6.7s-6.7-3-6.7-6.7S13.8,8.6,17.5,8.6z"/>
+                  </g>
+                </svg>
+              </div>
+              <span ref="num" class="numb" :class="bloc.color" :data-value="bloc.value">0</span><span class="numb mauve">/10</span>
+              <h4>{{ bloc.title }}</h4>
             </el-col>
           </el-row>
         </div>
@@ -58,13 +94,6 @@
           </el-row>
         </div>
 
-        <div id="actuality" class="previous content-layout white">
-          <el-row class="content">
-            <h2 class="subtitle" v-html="$t('pages.startup.actuality.title')"></h2>              
-            <a class="cta bordered" :href="$t('pages.startup.actuality.url')" v-html="$t('pages.startup.actuality.cta')"></a> 
-          </el-row>
-        </div>
-
         <div id="who" class="content-layout white">
           <el-row class="content">
             <h2 class="subtitle" v-html="$t('pages.startup.video.title')" style="margin-bottom: 30px;"></h2> 
@@ -73,7 +102,8 @@
                 <video @change="Vue.$forceUpdate()" :src="video.src" type="video/mp4" width="100%" controls :poster="require('@/assets/body/video/poster'+ video.poster +'.jpg')"
                 >Your browser does not support the video tag.</video>
               </el-col>
-            </el-row>          
+            </el-row>      
+            <a class="cta bordered" :href="$t('pages.startup.actuality.url')" v-html="$t('pages.startup.actuality.cta')"></a>         
           </el-row>
         </div>
 
@@ -101,6 +131,8 @@ export default {
           },
           ease: Circ.easeOut
         });
+        TweenMax.staggerTo(".mipple1", .2, {opacity:1}, .3);
+        TweenMax.staggerTo(".mipple2", .2, {opacity:1}, .3333333);
       });
     }
   },

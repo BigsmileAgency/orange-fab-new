@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <!-- <header-sub mainTitle="Orange Fab Belgium & Luxemburg <br><span>Start-up accelerator program</span>"/> -->
-    <header-sub mainTitle="Join our Twitter Network<br><a href='/applynow' class='header_button'>Click here to apply</a></span>"/>
+    <header-sub mainTitle="Apply for Season 5<br><a href='/applynow' class='header_button'>Click here</a></span>"/>
 
     <el-main class="container" ref="mainContainer">
       <div id="whoWeAre" class="main">
@@ -12,11 +12,23 @@
           <div id="welcome" class="content-layout white apply">
             <el-row class="content">
               <h2 class="subtitle" v-html="$t('pages.whoWeAre.welcome.title')" style="margin-bottom: 30px"></h2>
-              <h3 class="subtitle" v-html="$t('pages.whoWeAre.welcome.subtitle')" style="margin-bottom: 30px"></h3>
+              <!-- <h3 class="subtitle" v-html="$t('pages.whoWeAre.welcome.subtitle')" style="margin-bottom: 30px"></h3> -->
+              <p class="subtext" v-html="$t('pages.whoWeAre.welcome.text')" style="margin-bottom: 30px"></p>
               <iframe width="100%" height="100%" class='iframe-home' src="https://www.youtube.com/embed/FBb8i3qmpNA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </el-row>
           </div>
-
+          <!--  -->
+          <!--  -->
+          <div id="season5" class="content-layout white" v-view.once="onceHandler">
+            <el-row class="content">
+              <h2 class="subtitle" v-html="$t('pages.whoWeAre.season5.title')" style="margin-bottom: 30px"></h2>
+              <p class="subtext" v-html="$t('pages.whoWeAre.season5.subtitle')" style="margin-bottom: 30px"></p>
+              <img class="theme_picture" :src="require('@/assets/body/theme.jpg')">
+              <a class="cta bordered" :href="$t('pages.ourprogram.ServiceOffer.url')" v-html="$t('pages.ourprogram.ServiceOffer.cta')"></a>
+            </el-row>
+          </div>
+          <!--  -->
+          <!--  -->
           <div id="apply" class="content-layout black apply">
             <el-row class="content">
               <h2 class="subtitle" v-html="$t('pages.whoWeAre.apply.title')" style="margin-bottom: 30px"></h2>
@@ -25,15 +37,8 @@
               <a class="cta" :href="$t('pages.whoWeAre.apply.url')" v-html="$t('pages.whoWeAre.apply.cta')"></a>
             </el-row>
           </div>
-
-          <div id="season5" class="content-layout white" v-view.once="onceHandler">
-            <el-row class="content">
-              <h2 class="subtitle" v-html="$t('pages.whoWeAre.season5.title')" style="margin-bottom: 30px"></h2>
-              <img class="theme_picture" :src="require('@/assets/body/theme.jpg')">
-              <a class="cta bordered" :href="$t('pages.ourprogram.ServiceOffer.cta')" v-html="$t('pages.ourprogram.ServiceOffer.cta')"></a>
-            </el-row>
-          </div>
-
+          <!--  -->
+          <!--  -->
           <div id="business" class="content-layout white" v-view.once="onceHandler">
             <el-row class="content">
               <h2 class="subtitle" v-html="$t('pages.whoWeAre.business.title')"></h2>
@@ -44,7 +49,8 @@
               </el-col>
             </el-row>
           </div>
-
+          <!--  -->
+          <!--  -->
           <div id="previous" class="previous content-layout white">
             <el-row class="content">
               <h2 class="subtitle" v-html="$t('pages.whoWeAre.previous.title')"></h2>
@@ -60,7 +66,7 @@
               </div>
             </el-row>
           </div>
-
+          <!--  -->
           <!--  -->
           <div id="contact" class="content-layout white apply">
             <el-row class="content">

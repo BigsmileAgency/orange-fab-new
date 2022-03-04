@@ -1,6 +1,6 @@
 <template>
   <div class="main">
-    <header-page mainTitle="Orange Fab Belgium & Luxemburg"/>
+    <header-page mainTitle="Orange Fab BeLux"/>
   
     <el-main class="container" ref="mainContainer">
       <div id="whoWeAre" class="main">
@@ -70,7 +70,7 @@
                 <div class="partner" v-for="(partner, i) in this.$t('pages.whoWeAre.partners.partners')" :key="i">
                   <img :src="require('@/assets/body/who/partners/'+ partner.img)">
                   <h4>{{ partner.name }}</h4>
-                  <p>{{ partner.bio }}</p>
+                  <!-- <p>{{ partner.bio }}</p> -->
                 </div>
               </div>
             </el-row>

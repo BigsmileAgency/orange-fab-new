@@ -34,18 +34,18 @@
         <el-col :xs="24" :sm="12" :md="6" :lg="6" :xl="6">
           <h6>Social</h6>
           <ul>
-            <li>
+            <!-- <li>
               <a href="https://www.facebook.com/OrangeBelgium/" target="_blank" class="footer-font-size">Facebook</a>
-            </li>
+            </li> -->
             <li>
               <a :href="this.$t('footer.twitter')" target="_blank" class="footer-font-size">Twitter</a>
             </li>
-            <li>
+            <!-- <li>
               <a href="https://www.linkedin.com/company/orange/" target="_blank" class="footer-font-size">Linkedin</a>
             </li>
             <li>
               <a href="https://www.instagram.com/orange_belgium/" target="_blank" class="footer-font-size">Instagram</a>
-            </li>
+            </li> -->
           </ul>
         </el-col>
         <el-col :xs="24" :sm="12" :md="6" :lg="6" :xl="6">
@@ -69,18 +69,18 @@
             <a class="privacy" :href="this.$t('footer.privateLink')" target="_blank">{{this.$t('footer.private')}}</a>
           </p>
           <p class="socials">
-            <a href="https://www.facebook.com/OrangeBelgium/" target="_blank">
+            <!-- <a href="https://www.facebook.com/OrangeBelgium/" target="_blank">
               <img :src="require('../../assets/socials/facebook.svg')" alt="Facebook">
-            </a>
+            </a> -->
             <a :href="this.$t('footer.twitter')" target="_blank">
               <img :src="require('../../assets/socials/twitter.svg')" alt="Twitter">
             </a>
-            <a href="https://www.linkedin.com/company/orange/" target="_blank">
+            <!-- <a href="https://www.linkedin.com/company/orange/" target="_blank">
               <img :src="require('../../assets/socials/linkedin.svg')" alt="Linkedin">
             </a>
             <a href="https://www.instagram.com/orange_belgium/" target="_blank">
               <img :src="require('../../assets/socials/instagram.svg')" alt="Instagram">
-            </a>
+            </a> -->
           </p>
         </el-col>
       </div>

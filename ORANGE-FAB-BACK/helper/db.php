@@ -13,16 +13,16 @@ class db {
     // private $password = '';
 
   //STAGING : orangefab.staging.bigsmile.be
-    // private $host     = 'localhost:3306';
-    // private $db       = 'orangefab_staging';
-    // private $user     = 'orange_user_stg';
-    // private $password = '6yFyfq8#ah8DlAme';
+    private $host     = 'localhost:3306';
+    private $db       = 'orangefab_staging';
+    private $user     = 'orange_user_stg';
+    private $password = '6yFyfq8#ah8DlAme';
 
   // // PROD
-    private $host     = 'localhost:3306';
-    private $db       = 'orangefab';
-    private $user     = 'orangefab';
-    private $password = '5689/*vb';
+    // private $host     = 'localhost:3306';
+    // private $db       = 'orangefab';
+    // private $user     = 'orangefab';
+    // private $password = '5689/*vb';
 
     private $pdo;
 

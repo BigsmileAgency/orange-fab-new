@@ -24,36 +24,6 @@ export var en = {
               },
             },
             {
-              name: "Our vision",
-              link: {
-                name: "home_child",
-                hash: "who-we-are#vision",
-                params: {
-                  lang: "en",
-                },
-              },
-            },
-            {
-              name: "Our Team",
-              link: {
-                name: "home_child",
-                hash: "who-we-are#team",
-                params: {
-                  lang: "en",
-                },
-              },
-            },
-            {
-              name: "Contact Us",
-              link: {
-                name: "home_child",
-                hash: "who-we-are#contact",
-                params: {
-                  lang: "en",
-                },
-              },
-            },
-            {
               name: "Orange Fab Network",
               link: {
                 name: "home_child",
@@ -85,17 +55,27 @@ export var en = {
           },
           subLinks: [
             {
-              name: "Our service offer",
+              name: "Season 5",
               link: {
                 name: "home_child",
-                hash: "our-program#ourprogram",
+                hash: "our-program",
                 params: {
                   lang: "en",
                 },
               },
             },
             {
-              name: "What we offer",
+              name: "Timeline",
+              link: {
+                name: "home_child",
+                hash: "our-program#timeline",
+                params: {
+                  lang: "en",
+                },
+              },
+            },
+            {
+              name: "Our offer",
               link: {
                 name: "home_child",
                 hash: "our-program#ServiceOffer",
@@ -105,38 +85,26 @@ export var en = {
               },
             },
           ],
-        },{
+        },
+        {
           name: "Our Start-ups",
           link: {
-            name: "start-ups",
-            hash: "start-ups",
+            name: "startups_child",
             params: {
               lang: "en",
             },
           },
-          subLinks: [
-            {
-              name: "Alumnis",
-              link: {
-                name: "home_child",
-                hash: "start-ups#startup",
-                params: {
-                  lang: "en",
-                },
-              },
-            },
-            {
-              name: "Our previous seasons",
-              link: {
-                name: "home_child",
-                hash: "start-ups#previous",
-                params: {
-                  lang: "en",
-                },
-              },
-            },
-          ],
-        },{
+        },
+        // {
+        //   name: "Our Start-ups",
+        //   link: {
+        //     name: "start-ups",
+        //     params: {
+        //       lang: "en",
+        //     },
+        //   },
+        // },
+        {
           name: "News",
           link: {
             name: "news_child",
@@ -145,22 +113,23 @@ export var en = {
             },
           },
         },{
-          name: "Join us!",
+          name: "Join-us",
           link: {
             name: "join_us_child",
             params: {
               lang: "en",
             },
           },
-        },{
-          name: "FAQ",
-          link: {
-            name: "faq_child",
-            params: {
-              lang: "en",
-            },
-          },
         },
+        // {
+        //   name: "FAQ",
+        //   link: {
+        //     name: "faq_child",
+        //     params: {
+        //       lang: "en",
+        //     },
+        //   },
+        // },
       ],
       buttons: {
         connect: "Connect",
@@ -177,9 +146,9 @@ export var en = {
       whoWeAre: {
         Vision: {
           title: "Our <span>vision</span>",
-          text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euismod molestie commodo. Donec ut neque eget tellus dignissim pellentesque.<br/>Morbi lacinia ac mi et luctus. <span>Pellentesque ac eros ultrices</span>, auctor tellus id, imperdiet lorem. Duis ut nulla magna. Nunc congue eleifend felis, et pellentesque augue pharetra id. Fusce ullamcorper magna eu rutrum sagittis. Fusce urna lacus, dignissim eget ornare nec, sodales vel nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inc eptos himenaeos. Phasellus nec feugiat velit, ac pharetra metus.<br/><br/>Nunc a luctus mauris, vel vehicula eros. Nulla at turpis ut turpis efficitur aliquam. Nunc ornare, <span>ex in lobortis egestas</span>, lectus sem auctor dolor, et fringilla ipsum nisl nec nunc.",
+          text: "As a trusted partner, Orange gives everyone the keys to a responsible digital world.<br/> Orange strategic plan, Engage 2025, has two major ambitions&nbsp;:<br/><br/><b>1.</b>&nbsp;&nbsp;&nbsp;Build a smarter, more open and more responsible society<br/><b>2.</b>&nbsp;&nbsp;&nbsp;Make innovation useful and accessible to as many people as possible<br/><br/>Through Orange Fab, Orange Belgium and Luxembourg are acting to support entrepreneurship and build a digital society accessible to all.<br/><br/> At Orange Fab BeLux our mission is to implement win-win partnerships between start-ups and Orange Business Units.<br/> Each year, we select a few start-ups to join our free 6-month accelerator program.<br/><br/> During this period, the Orange Fab Team is here to help your start-up answer its challenges and to give you access to all resources you could need. ",
           cta: "Discover our program",
-          url: "#",
+          url: "our-program",
         },
         Team: {
           title: "Our <span>Team</span>",
@@ -203,74 +172,74 @@ export var en = {
           title: "Our <span>partners</span>",
           subtitle: "You will have access to:",
           partners: [{
-            img: 'employees-orange.png',
-            name: 'Lorem IPSUM',
+            img: 'Startit_KBC.jpg',
+            name: 'Startit@KBC ',
+            bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis lorem vitae ex venenatis.",
+          },{
+            img: 'La_Grand_Poste.png',
+            name: 'La Grand Poste',
+            bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis lorem vitae ex venenatis.",
+          },{
+            img: 'The_Beacon.png',
+            name: 'The Beacon',
+            bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis lorem vitae ex venenatis.",
+          },{
+            img: 'Silicon_Luxembourg.png',
+            name: 'Silicon Luxembourg',
+            bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis lorem vitae ex venenatis.",
+          },{
+            img: 'logo-orange-ventures.png',
+            name: 'Orange Ventures',
+            bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis lorem vitae ex venenatis.",
+          },{
+            img: 'loic_logo.png',
+            name: 'LOIC ',
             bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis lorem vitae ex venenatis.",
           },{
             img: 'employees-orange.png',
-            name: 'Lorem IPSUM',
-            bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis lorem vitae ex venenatis.",
-          },{
-            img: 'employees-orange.png',
-            name: 'Lorem IPSUM',
-            bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis lorem vitae ex venenatis.",
-          },{
-            img: 'employees-orange.png',
-            name: 'Lorem IPSUM',
-            bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis lorem vitae ex venenatis.",
-          },{
-            img: 'employees-orange.png',
-            name: 'Lorem IPSUM',
-            bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis lorem vitae ex venenatis.",
-          },{
-            img: 'employees-orange.png',
-            name: 'Lorem IPSUM',
-            bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis lorem vitae ex venenatis.",
-          },{
-            img: 'employees-orange.png',
-            name: 'Lorem IPSUM',
+            name: 'Le Loft',
             bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis lorem vitae ex venenatis.",
           },
           ],
         },
         contact: {
           title: "Contact us<br/><span>Orange Fab Belgium & Luxembourg</span>",
-          address: "<a href='mailto:orangefab@orange.be' target='_blank'>orangefab@orange.be</a>",
+          address: "Orange Belgium NV<br/>Bourgetlaan 3,<br/>1140 Brussel (Evere)<br/><br/><a href='mailto:orangefab@orange.be' target='_blank'>orangefab@orange.be</a>",
         },
-        whyOrange: {
-          title: "Be part of this unique and custom-made accelerator!",
-          subtitle: "You will have access to:",
-          blocs: [{
-            type: 'network',
-            title: "Networking & Distribution",
-            list: [
-              "Benefit from the <span>networking assets</span> of a big corporation (data, customer bases, sales channel, etc.)",
-              "<span><strong>Market intelligence</strong></span>",
-              "<strong><span>Exclusive contact</span> with our B2B/B2C customers</strong>",
-            ],
-          },{
-            type: 'mentor',
-            title: "Mentoring & training",
-            list: [
-              "<strong>Direct access to <span>C-level</span></strong>",
-              "<span>Support</span> from experts",
-            ],
-          },{
-            type: 'events',
-            title: "Events",
-            list: [
-              "<strong>Invitation to <span>regional</span>, <span>national</span> and <span>international</span> events</strong>",
-              "<strong>Participation to industry leading <span>workshop</span></strong>",
-            ],
-          },{
-            type: 'inter',
-            title: "International",
-            list: [
-              "<strong>Part of the biggest international corporate accelerator</strong>",
-              "<strong><span>18 countries</span> all around the globe</strong>",
-            ],
-          }],
-        },
+        // whyOrange: {
+        //   title: "Be part of this unique and custom-made accelerator!",
+        //   subtitle: "You will have access to:",
+        //   blocs: [{
+        //     type: 'network',
+        //     title: "Networking & Distribution",
+        //     list: [
+        //       "Benefit from the <span>networking assets</span> of a big corporation (data, customer bases, sales channel, etc.)",
+        //       "<span><strong>Market intelligence</strong></span>",
+        //       "<strong><span>Exclusive contact</span> with our B2B/B2C customers</strong>",
+        //     ],
+        //   },{
+        //     type: 'mentor',
+        //     title: "Mentoring & training",
+        //     list: [
+        //       "<strong>Direct access to <span>C-level</span></strong>",
+        //       "<span>Support</span> from experts",
+        //     ],
+        //   },{
+        //     type: 'events',
+        //     title: "Events",
+        //     list: [
+        //       "<strong>Invitation to <span>regional</span>, <span>national</span> and <span>international</span> events</strong>",
+        //       "<strong>Participation to industry leading <span>workshop</span></strong>",
+        //     ],
+        //   },{
+        //     type: 'inter',
+        //     title: "International",
+        //     list: [
+        //       "<strong>Part of the biggest international corporate accelerator</strong>",
+        //       "<strong><span>18 countries</span> all around the globe</strong>",
+        //     ],
+        //   }],
+        // },
         keys: {
           title: "What are we looking for?",
           subTitle: "3 tracks to answer our ongoing challenges",
@@ -307,60 +276,74 @@ export var en = {
           subtitle: "The season 3 application period is now officialy closed.",
           blocs: [{
             title: 'Application',
-            description: 'Submit an application during the Orange Fab France call for projects.',
+            description: 'Submit your application online during the Orange Fab BeLux call for projects.',
             color: 'blue',
             image: 'Application'
           },
           {
             title: 'Evaluation',
-            description: 'Wait a while, we are reviewing your application.',
+            description: 'We are reviewing your application and will come back to you soon.',
             color: 'purple',
             image: 'Evaluation'
           },{
             title: 'Pitch',
-            description: 'Was your application convincing?',
+            description: 'Present your project and why you want to join our program in front of our C-Levels.',
             color: 'green',
             image: 'Pitch'
           },{
             title: 'Acceleration workshop',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+            description: 'Let’s find out together how we can collaborate at our best !',
             color: 'yellow',
             image: 'Workshop'
           },{
             title: 'Acceleration',
-            description: 'Join the Orange Fab France community.',
+            description: 'Welcome to the Orange Fab community, we have 6-months to launch innovative projects ! ',
             color: 'pink',
             image: 'Acceleration'
           },{
             title: 'Long term partnerships',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+            description: 'You are now an Orange Fab Alumni and we keep partnering to scale up your projects.',
             color: 'green',
             image: 'Partnerships'
           }],
           cta: 'Discover more',
-          url: '#',
+          url: 'our-program',
         },
         season5: {
-          title: "Our Theme for Season 5.<br/><span>What are we looking for?</span>",
-          subtitle: "Who are we ?…",
+          title: "Orange Fab Season 5&nbsp;:<br/><span>Join our 6-month acceleration program&nbsp;!</span>",
+          subtitle: "Orange Fab BeLux is launching its fifth season and we are looking for game-changing start-ups to join our unique and&nbsp;custom-made accelerator&nbsp;!<br/><br/> Our goal for this new season: propose inventive new experiences to our final customers in Belgium and Luxembourg.<br/><br/> Your start-up is working in augmented reality or virtual reality technologies&nbsp;?<br/> You are proposing advanced experiences in the areas of entertainment, sportech, gaming or retail ?<br/> Apply to our program and let's develop a business-oriented project together&nbsp;!<br/><br/> We are looking for start-ups with existing product and customers, looking to scale-up.",
           cta: 'Apply!',
-          url: '#',
+          url: 'applynow',
         },
         welcome: {
-          title: "Welcome on our <span>Orange Fab website</span>, Orange’s start-up accelerator in Belgium and Luxembourg",
-          subtitle: "Who are we ?…",
+          title: "Welcome on our <span>Orange Fab website</span>, Orange’s start-up accelerator in Belgium and Luxembourg&nbsp;!",
+          subtitle:"<span>Who are we ?…</span>",
+          text: "Orange Fab supports, promotes and partners with the best digital start-ups of today, who&nbsp;will&nbsp;influence the&nbsp;way&nbsp;we&nbsp;will&nbsp;live&nbsp;tomorrow.<br/><br/>At Orange Fab BeLux our objective is to <span>build win-win business partnerships between start-ups from&nbsp;Belgium&nbsp;&&nbsp;Luxembourg and actors of our Orange ecosystem.</span>",
+        },
+        season4: {
+          title:"Season 4",
+          acceleration1:[{
+            title: "of our accelerated start-ups are very satisfied with their experience at Orange Fab",
+            value: 100,
+            color: 'green'
+          }],
+          acceleration2:[{
+            title: "will recommend our Orange Fab program to another start-up",
+            value: 9,
+            color: 'mauve'
+          }],
         },
         previous: {
-          title: "Our <span>previous seasons</span>",
+          title: "Testimonials",
           blocs: [{
-            image: "etay",
-            txt: "It was <span>an exceptional experience</span>!<br>Everyone came to it with an <span>open mind</span>, trying to identify our complementary forces towards <span>addressing the market together</span>.<br>We combined our IoT offering with Orange sales force. It was a great learning experience for us and for Orange, allowing us to pave the way to continuous cooperation, as is still the case today.",
-            position: "Etay Oren - CEO Communithings"
-          },{
             image: "joeri",
-            txt: "Orange infused Chatlayer with acceleration, <span>taking us to the next level</span>.<br>The track provides us not only with intensive workshops and exposure but actively helped us in <span>rolling out our products and services</span> within the impressive Orange enterprise.",
-            position: "Joeri Van Steen - CEO Faktion"
-          }]
+            txt: "The Orange Fab program supported us <span>both technically and commercially:</span> Together with the Orange experts we made our solutions <span>5G-ready</span>, and we forged an <span>important commercial partnership on a European level.</span>",
+            position: "Sam De Smet - Co-founder of OTIV"
+          },{
+            image: "etay",
+            txt: "It was <span>an exceptional experience!</span><br>Everyone came to it with an <span>open mind</span>, trying to identify our complementary forces towards <span>addressing the market together.</span><br>We combined our IoT offering with Orange sales force. It was a great learning experience for us and for Orange, allowing us to pave the way to continuous cooperation, as is still the case today.",
+            position: "Etay Oren - CEO Communithings"
+          },]
         },
         international: {
           title: "Orange has developed<br/><span>the first corporate accelerator network</span> in the world.",
@@ -378,15 +361,15 @@ export var en = {
             value: 13,
             color: 'green'
           },{
-            title: "Trade shows & networking events per year",
-            value: 6,
+            title: "Partnerships signed since 2016",
+            value: 5,
             color: 'mauve'
           },{
-            title: "Pitches session since the launch",
-            value: 4,
+            title: "Events per year ",
+            value: 10,
             color: 'orange'
           },{
-            title: "Training & workshops per year",
+            title: "Workshops per year ",
             value: 8,
             color: 'grey'
           }],
@@ -395,7 +378,8 @@ export var en = {
       },
       ourprogram: {
         apply:{
-          title: "Our Theme for Season 5.<br/><span>What are we looking for?</span>",
+          title: "<br/><span>Season 5</span>",
+          intro: "<h3>Orange Fab BeLux is launching its fifth season and we are looking for game-changing start-ups<br/>to join our unique and <span>custom-made accelerator&nbsp;!</span></h3>Our goal this year: <b>propose innovative and disruptive experiences to our final customers</b> in Belgium and Luxembourg.<br/><br/>Your start-up is working in augmented reality or virtual reality technologies&nbsp;?<br/>You are proposing innovative experiences in the areas of entertainment, sportech, gaming or retail&nbsp;?<br/> Apply to our program and let's develop a business-oriented project together&nbsp;! <br/><br/>By joining the Orange Fab Accelerator you will benefit from the support of our experts, access to our networking and distribution assets, develop exclusive contracts with our business units and customers but also increase your visibility and unlock unique opportunities within the global Orange Group&nbsp;! <br/><br/>Applications to join the Season 5 of the Orange Fab BeLux are open until <b>8th April 2022</b>.<br/>We will then select 5 start-ups to participate to our pitch contest end of April in front of our jury composed by Orange executives.<br/>The laureates will join our accelerator program for the next 6-months and develop new projects with Orange teams&nbsp;!<br/><br/><b>Good luck&nbsp;!</b><br/><br/>",
         },
         timeline:{
           title: "Timeline:",
@@ -418,8 +402,10 @@ export var en = {
           title: "What <span>we offer</span>",
           subtitle: "You will have access to:",
           Applytitle: "What we are looking for",
-          cta: "Apply!",
+          cta: "Apply now !",
           url: "applynow",
+          cta_startups: "Discover our start-ups",
+          url_startups: "start-ups",
           link: "",
           blocs: [{
             type: 'network',
@@ -431,10 +417,11 @@ export var en = {
             ],
           },{
             type: 'mentor',
-            title: "Mentoring & training",
+            title: "Mentoring & Support",
             list: [
               "<strong>Direct access to <span>C-level</span></strong>",
               "<span>Support</span> from experts",
+              "<span>A financial support by Orange Belgium & Luxembourg</span> to implement a demo",
             ],
           },{
             type: 'events',
@@ -448,9 +435,23 @@ export var en = {
             title: "International",
             list: [
               "<strong>Part of the biggest international corporate accelerator</strong>",
-              "<strong><span>18 countries</span> all around the globe</strong>",
+              "<strong><span>20 countries</span> all around the globe</strong>",
             ],
           }],
+          eligibility:{
+            title:"Eligibility <span>conditions:</span>",
+            conditions:[
+              {
+                text: "Existing product and customers",
+              },
+              {
+                text: "HQ based in Belgium or Luxembourg ",
+              },
+              {
+                text: "Less than 15 employees",
+              },
+            ]
+          }
         },
       },
       startup: {
@@ -513,7 +514,7 @@ export var en = {
           season: 1,
         }],
         video: {
-          title: "<span>Who are we ?…</span>"
+          title: "Our <span>case studies</span>"
         },
         videos: [{
           src: require("../assets/body/video/Charlie24_OF_Main_Movie_FR.mp4"),
@@ -524,17 +525,28 @@ export var en = {
         }],
         actuality: {
           title: "Our start-ups <span>actualities</span>",
-          cta: "Discover more", 
+          cta: "our latest news", 
           url: "news",
         },
       },
       news: {
         aftermovieTitle: "Discover Orange Fab Season 4",
         title1: "For its <span>5<sup>th</sup> Season</span>, ",
-        title2: "Recent <span>news</span>",
-        title3: "Previous <span>news</span>",
+        title2: "Last <span>news</span>",
+        title3: "Other <span>news</span>",
         intro: "<b>Orange Fab is looking for new start-ups to answer challenges around new experiences and&nbsp;more&nbsp;specifically on the areas of : </b>",
         text: "Some news from Orange Fab Belgium & Luxembourg.",
+        areas: [{
+            title: "Augmented Reality",
+            image: "OTIV",
+          },{
+            title: "Virtual Reality",
+            image: "OTIV",
+          },{
+            title: "Metavers",
+            image: "OTIV",
+          },
+        ],
         lastArticles: [{
           title: "OTIV innovates with self-driving 5G rail vehicles",
           image: "OTIV",
@@ -546,7 +558,47 @@ export var en = {
           link: "#",
           txt: "Après Anvers en octobre dernier, Orange Belgium s’associe avec le hub La Grand Poste pour créer un « 5G Lab » à Liège, annonce l’opérateur mardi."
         },],
-        articles: [{
+        articles: [
+          // 
+          {
+            title: "At MWC 2022, Orange will be presenting its latest network innovations and uses.",
+            image: "MWC",
+            link: "https://www.orange.com/en/newsroom/press-releases/2022/mwc-2022-orange-will-be-presenting-its-latest-network-innovations-and",
+            txt: "The importance of networks was demonstrated once again in 2021, when they became an even more essential part of our daily lives, to work, learn, communicate, and access entertainment..."
+          },{
+            title: "Partner in the picture: Orange",
+            image: "yt1",
+            link: "https://www.youtube.com/watch?v=1M9Wjn79h_g",
+            txt: "Did you know that 50% of Belgian SMEs and self-employed people have suffered from cyberattack-related troubles? That said, you’d still be amazed how many people, organisations and especially startups underestimate the dangers."
+          },{
+            title: "Orange Belgium and La Grand Poste join forces to create a 5G Lab in the heart of Liège",
+            image: "orange",
+            link: "https://corporate.orange.be/en/news-medias/orange-belgium-and-la-grand-poste-join-forces-create-5g-lab-heart-li%C3%A8ge",
+            txt: "After the inauguration of its first 5G Lab in Antwerp in October 2021, Orange Belgium forged a partnership with the iconic Grand Poste of Liège, veritable hub dedicated to creative companies and innovation..."
+          },{
+            title: "Testimonial The Big Score - Orange",
+            image: "yt2",
+            link: "https://www.youtube.com/watch?v=auFwSqeI0wo",
+            txt: "The Big Score is een internationaal event voor venture capital & bedrijfsinnovatie waar gevestigde multinationals en veelbelovende scaleups elkaar ontmoeten..."
+          },{
+            title: "Orange’s startup accelerator",
+            image: "hello",
+            link: "https://www.siliconluxembourg.lu/01-orange-startup-accelerator-with-juliette-malherbe-orange-fab-and-casius-morea-emailtree/",
+            txt: "Just as whales need the help of smaller fish to clean their teeth, so large corporates need the help of startups to improve their services..."
+          },{
+            title: "The Big Score: what are Bridgestone and Orange looking for at Belgium’s corporate sourcing and VC event?",
+            image: "bigscore",
+            link: "https://siliconcanals.com/news/startups/the-big-score-belgium-bridgestone-orange-corporate-challenges/",
+            txt: "How do you innovate when your core-business is tyres? And with what application for their new mobile network can you surprise one of the largest telecom providers? To find out, we spoke with the innovation czars..."
+          },{
+            title: "Interview - Juliette Malherbe",
+            image: "juliette",
+            link: "https://www.youtube.com/watch?v=t5SMPXDRiAY",
+            txt: "How could Orange bring its technology to the air cargo industry? A new partnership agreement with Liege Airport to develop the internet of things and smart "
+          },
+          // 
+          {
+          
           title: "Iristick, OTIV and MyPitch join the 4th season of the start-up acceleration programme Orange&nbsp;Fab",
           image: "orange_otiv_news",
           link: "https://corporate.orange.be/en/news-medias/iristick-otiv-and-mypitch-join-4th-season-start-acceleration-programme-orange-fab",
