@@ -9,7 +9,7 @@
           <el-row class="content">
             <h2 class="subtitle" v-html="$t('pages.ourprogram.apply.title')" style="margin-bottom: 30px"></h2>
             <p class="intro" v-html="$t('pages.ourprogram.apply.intro')"></p>
-            <img class="theme_picture" :src="require('@/assets/body/theme.jpg')">
+            <!-- <img class="theme_picture" :src="require('@/assets/body/theme.jpg')"> -->
 
             <apply/>
 

@@ -54,7 +54,7 @@
       margin: 0;
     }
     &:hover{
-      color: #ff7900;
+      color: $orange;
     }
 
   }
@@ -76,7 +76,7 @@
       height: 550px;
     }
     p {
-      color: #ff7900;
+      color: $orange;
       font-size: 18px;
       width: 70%;
       margin-bottom: 3em;
@@ -88,8 +88,8 @@
       padding: 10px 20px;
       border: 2px solid black;
       &:hover {
-        color: #ff7900;
-        border: 2px solid #ff7900;
+        color: $orange;
+        border: 2px solid $orange;
       }
     }
   }
@@ -109,7 +109,7 @@
       font-size: 0.8em;
     }
     &:hover {
-      border-color: #ff7900;
+      border-color: $orange;
     }
   }
 }

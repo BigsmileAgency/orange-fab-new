@@ -4,7 +4,7 @@
   background-image: url("../assets/body/header_home.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: 50% 40%;
   margin-top: 112px;
   height: 450px;
   display: flex!important;
@@ -94,6 +94,7 @@
     margin-bottom: 10px;;
     margin-top: 10px;;
   }
+  
 }
 
 #business {
@@ -426,18 +427,28 @@
   display: inline-block;
   border: 2px solid $orange;
   transition: .3s ease-in-out;
+
   &:hover{
     background: #fff;
   }
 }
 
 .iframe-home{
-  min-height: 570px;
+  width: 480px;
+  height: 270px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 25px;
   &:last-child{
     margin-bottom: 0;
   }
+  @media screen and (max-width: $break-small) {
+    width: 360px;
+    height: 203px;
+  }
   @media screen and (max-width: $break-lsmall) {
-    min-height: 285px;
+    width: 240px;
+    height: 135px;
   }
 }

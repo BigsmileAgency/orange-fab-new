@@ -203,7 +203,7 @@ header {
           .first_level_el{
             display: inline-block;
             list-style: none;
-            margin-right: 30px;
+            margin-right: 40px;
             position: relative;
             cursor: pointer;
             a{
@@ -231,7 +231,7 @@ header {
                 display: inline-block;
                 position: inherit;
                 font-weight: bold;
-                margin-left: 20px;
+                margin-left: 10px;
                 transform: rotate(180deg);
               }
               .subnav{
@@ -253,10 +253,13 @@ header {
                 }
                 .subnav_item{
                   list-style: none;
-                  padding: 20px;
                   display: block;
                   width: 190px;
                   border-top: 1px solid $borderGrey;
+                  a{
+                    padding: 20px;
+                    display: inline-block;
+                  }
                   @media screen and (max-width: $break-small) {
                     color: $black;
                     width: 100%;
@@ -267,9 +270,8 @@ header {
                     }
                     a{
                       color: $black;
-                      padding: 20px;
                       width: 100%;
-                      display: block;
+                      
                     }
                   }
                   &:hover, a:hover{

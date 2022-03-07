@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #e5e5e5;
-  @include typo(16px, $black, normal, 1.2);
+  @include typo(16px, $black, normal, 1.125);
 }
 a {
   text-decoration: none;
@@ -48,6 +48,14 @@ a {
   }
   @media screen and (max-width: $break-lsmall) {
     font-size: 20px;
+  }
+}
+h3.subtitle{
+  font-size: 26px;
+  text-align: center;
+  font-weight: 500;
+  span{
+    color:$orange;
   }
 }
 .center{

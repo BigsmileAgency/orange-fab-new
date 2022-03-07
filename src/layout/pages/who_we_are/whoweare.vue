@@ -11,7 +11,9 @@
           <div id="vision" class="content-layout white">
             <el-row class="content">
               <h2 class="subtitle" v-html="$t('pages.whoWeAre.Vision.title')"></h2>
-              <p v-html="$t('pages.whoWeAre.Vision.text')"></p>
+              <p v-html="$t('pages.whoWeAre.Vision.text1')" style="margin-bottom:0;"></p>
+              <p class="bullet-points" v-html="$t('pages.whoWeAre.Vision.text2')" style="margin-bottom:0;"></p>
+              <p v-html="$t('pages.whoWeAre.Vision.text3')" ></p>
               <a class="cta bordered" :href="$t('pages.whoWeAre.Vision.url')" v-html="$t('pages.whoWeAre.Vision.cta')"></a>
             
             </el-row>
@@ -39,17 +41,19 @@
             <el-row class="content">
               <h3 class="subtitle" v-html="$t('pages.whoWeAre.welcome.subtitle')" style="margin-bottom: 30px"></h3>
               <iframe width="100%" height="100%" class='iframe-home' src="https://www.youtube.com/embed/FBb8i3qmpNA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <a class="cta bordered" :href="$t('pages.whoWeAre.welcome.link')" v-html="$t('pages.whoWeAre.welcome.cta')"></a>
+           
             </el-row>
           </div>
           <!--  -->
 
           <!--  -->
-          <div id="contact" class="content-layout white apply">
+          <!-- <div id="contact" class="content-layout white apply">
             <el-row class="content">
               <h2 v-html="$t('pages.whoWeAre.contact.title')"></h2>
               <p v-html="$t('pages.whoWeAre.contact.address')"></p>
             </el-row>
-          </div>
+          </div> -->
           <!--  -->
 
           <!--  -->

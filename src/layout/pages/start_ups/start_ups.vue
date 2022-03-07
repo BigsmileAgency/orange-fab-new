@@ -6,7 +6,8 @@
       <div id="startup" class="main">
         <div class="content-layout white">
           <el-row class="content">            
-            <h2 class="subtitle" v-html="$t('pages.startup.title')" style="margin-bottom: 30px"></h2>
+            <h2 class="subtitle" v-html="$t('pages.startup.title')" style="margin-bottom: 0px"></h2>
+            <h3 class="subtitle" v-html="$t('pages.startup.subtitle')" style="margin-bottom: 30px"></h3>
             <el-col class="" :md="24">
               <!-- <el-row>
                 <el-col :md="24">

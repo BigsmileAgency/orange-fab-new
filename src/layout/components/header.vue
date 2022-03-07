@@ -1,5 +1,5 @@
 <template>
-  <el-header height="auto" ref="header" :class="this.$route.name" >
+  <el-header   height="auto" ref="header" :class="this.$route.name" >
     <el-row :gutter="1" id="sub-header" ref="subHeader">
       <div ref="burgerMenu" :class="!menu ? 'el-col el-col-24 burger-menu' : 'el-col el-col-24 burger-menu menu-on'" @click="openCloseMenu()">
         <div class="burger" ></div>
