@@ -17,7 +17,7 @@
 
         <div class="header-menu" ref="menu">
           <nav>
-            <ul id="main_nav">
+            <ul ref="menu" id="main_nav">
               <template v-for="(item, index) in this.$t('header.items')">
                 <li v-if="item.subLinks" :key="index" :index="item.name" v-bind:id="index" class="first_level_el expandable closed"  @click="expandNav(index)">
                   <div>
@@ -86,7 +86,28 @@ export default {
 
 
   },
+  created() {
+      if (process.browser) {
+        document.addEventListener("click", this.documentClick);
+      }
+  },
+  destroyed() {
+    if (process.browser) {
+    document.removeEventListener("click", this.documentClick);
+    }
+  },
   methods: {
+     documentClick(e){
+      let el = this.$refs['menu']
+      let target = e.target;
+      if (el !== target && !el.contains(target) && this.clicked_index) {
+        var expandables = document.getElementsByClassName('expandable');
+        for(var i = 0; i < expandables.length; i++){
+          expandables[i].className = "first_level_el expandable closed";
+        }
+      }
+      this.clicked_index = true
+    },
     changeLang(lang) {
       this.$router.push({ name: this.$route.name, params: { lang } });
     },
