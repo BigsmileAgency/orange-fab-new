@@ -146,19 +146,20 @@ export default {
     isAnimate() {
       this.isAnimating = !this.isAnimating;
     },
+    
     expandNav(id){
       var expandables = document.getElementsByClassName('mobile_expandable');
       if(id == "all"){
         for(var i = 0; i < expandables.length; i++){
-            expandables[i].className = "first_level_el mobile_expandable expandable closed";
+            expandables[i].className = "first_level_el expandable mobile_expandable closed";
         }
       } else {
         for(var i = 0; i < expandables.length; i++){
           if(i != id){
-            expandables[i].className = "first_level_el mobile_expandable expandable closed";
+            expandables[i].className = "first_level_el expandable mobile_expandable closed";
           } else {
             var el = document.getElementById(id);
-            el.classList.classList("first_level_el expandable desk-expandable closed");
+            el.classList.toggle("closed");
           }
         }
       }
