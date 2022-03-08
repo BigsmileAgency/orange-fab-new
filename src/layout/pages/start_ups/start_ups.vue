@@ -125,15 +125,15 @@ export default {
       arr.forEach(function(item) {
         var counter = { var: 0 };
         let value = item.dataset.value;
-        TweenMax.to(counter, 3, {
+        TweenMax.to(counter, 0, {
           var: value,
           onUpdate: function() {
             item.innerHTML = Math.ceil(counter.var);
           },
           ease: Circ.easeOut
         });
-        TweenMax.staggerTo(".mipple1", .2, {opacity:1}, .3);
-        TweenMax.staggerTo(".mipple2", .2, {opacity:1}, .3333333);
+        TweenMax.staggerTo(".mipple1", 0, {opacity:1}, 0);
+        TweenMax.staggerTo(".mipple2", 0, {opacity:1}, 0);
       });
     }
   },

@@ -39,7 +39,6 @@
           <!--  -->
           <div id="welcome" class="content-layout white apply">
             <el-row class="content">
-              <h3 class="subtitle" v-html="$t('pages.whoWeAre.welcome.subtitle')" style="margin-bottom: 30px"></h3>
               <iframe width="100%" height="100%" class='iframe-home' src="https://www.youtube.com/embed/FBb8i3qmpNA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <a class="cta bordered" :href="$t('pages.whoWeAre.welcome.link')" v-html="$t('pages.whoWeAre.welcome.cta')"></a>
            

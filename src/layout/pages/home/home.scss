@@ -4,7 +4,7 @@
   background-image: url("../assets/body/header_home.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 50% 40%;
+  background-position: 50% 35%;
   margin-top: 112px;
   height: 450px;
   display: flex!important;
@@ -81,6 +81,7 @@
     }
     p.subtext{
       text-align: center;
+      font-size: 18px;
     }
   }
 }
@@ -375,6 +376,7 @@
           font-style: italic;
           margin: 0 0 0 30px;
           text-align: left;
+          font-size: 18px;
           &.position{
             font-weight: normal;
             font-style: normal;

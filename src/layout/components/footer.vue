@@ -32,13 +32,19 @@
           </ol>
         </el-col> -->
         <el-col :xs="24" :sm="12" :md="6" :lg="6" :xl="6">
-          <h6>Social</h6>
+          <h6>Links</h6>
           <ul>
             <!-- <li>
               <a href="https://www.facebook.com/OrangeBelgium/" target="_blank" class="footer-font-size">Facebook</a>
             </li> -->
             <li>
-              <a :href="this.$t('footer.twitter')" target="_blank" class="footer-font-size">Twitter</a>
+              <a :href="this.$t('footer.twitter')" target="_blank" class="footer-font-size">Twitter @OrangeBEFR</a>
+            </li>
+            <li>
+              <a :href="this.$t('footer.twitterLux')" target="_blank" class="footer-font-size">Twitter @Orange_Lux</a>
+            </li>
+            <li>
+              <a :href="this.$t('footer.startups')" target="_blank" class="footer-font-size">How Orange supports start-ups</a>
             </li>
             <!-- <li>
               <a href="https://www.linkedin.com/company/orange/" target="_blank" class="footer-font-size">Linkedin</a>

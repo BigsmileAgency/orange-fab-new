@@ -1,5 +1,5 @@
 <template>
-  <el-header   height="auto" ref="header" :class="this.$route.name" >
+  <el-header   height="auto" ref="header" :class="this.$route.name">
     <el-row :gutter="1" id="sub-header" ref="subHeader">
       <div ref="burgerMenu" :class="!menu ? 'el-col el-col-24 burger-menu' : 'el-col el-col-24 burger-menu menu-on'" @click="openCloseMenu()">
         <div class="burger" ></div>
@@ -15,11 +15,41 @@
           </router-link>
         </div>
 
-        <div class="header-menu" ref="menu">
+        <div class="header-menu desktop-menu" ref="menu" @mouseleave="hideNav()">
           <nav>
-            <ul ref="menu" id="main_nav">
+            <ul ref="menu" class="main_nav">
               <template v-for="(item, index) in this.$t('header.items')">
-                <li v-if="item.subLinks" :key="index" :index="item.name" v-bind:id="index" class="first_level_el expandable closed"  @click="expandNav(index)">
+                <li v-if="item.subLinks" :key="index" :index="item.name" v-bind:id="'desk_'+index" class="first_level_el expandable desk-expandable closed"  >
+                  <div>
+                    <router-link :to="item.link.hash">
+                      <span @mouseover="expandNavDesk('desk_'+index)">{{ item.name }}</span>
+                    </router-link>
+                    <i class="el-submenu__icon-arrow el-icon-arrow-down"></i></div>
+                  <ul class="subnav">
+                    <template v-for="(subitem, index) in item.subLinks" :index="item.name">
+                      <li @click="openCloseMenu()" class="subnav_item">
+                        <router-link :to="subitem.link.hash">
+                          {{ subitem.name }}
+                        </router-link>
+                      </li>
+                    </template>
+                  </ul>
+                </li>
+                <li @click="openCloseMenu()" v-else :key="index" :index="item.name" class="first_level_el">
+                  <router-link :to="item.link">
+                    <span >{{ item.name }}</span>
+                  </router-link>
+                </li>
+              </template>
+            </ul>
+          </nav> 
+        </div>
+
+        <div class="header-menu mobile-menu" ref="menu">
+          <nav>
+            <ul ref="menu" class="main_nav">
+              <template v-for="(item, index) in this.$t('header.items')">
+                <li v-if="item.subLinks" :key="index" :index="item.name" v-bind:id="index" class="first_level_el expandable mobile_expandable closed"  @click="expandNav(index)">
                   <div>
                       {{ item.name }}
                     <i class="el-submenu__icon-arrow el-icon-arrow-down"></i></div>
@@ -42,6 +72,8 @@
             </ul>
           </nav>
         </div>
+
+
       </div>
     </el-row>
 
@@ -101,9 +133,9 @@ export default {
       let el = this.$refs['menu']
       let target = e.target;
       if (el !== target && !el.contains(target) && this.clicked_index) {
-        var expandables = document.getElementsByClassName('expandable');
+        var expandables = document.getElementsByClassName('mobile_expandable');
         for(var i = 0; i < expandables.length; i++){
-          expandables[i].className = "first_level_el expandable closed";
+          expandables[i].className = "first_level_el expandable mobile_expandable closed";
         }
       }
       this.clicked_index = true
@@ -115,20 +147,39 @@ export default {
       this.isAnimating = !this.isAnimating;
     },
     expandNav(id){
-      var expandables = document.getElementsByClassName('expandable');
+      var expandables = document.getElementsByClassName('mobile_expandable');
       if(id == "all"){
         for(var i = 0; i < expandables.length; i++){
-            expandables[i].className = "first_level_el expandable closed";
+            expandables[i].className = "first_level_el mobile_expandable expandable closed";
         }
       } else {
         for(var i = 0; i < expandables.length; i++){
           if(i != id){
-            expandables[i].className = "first_level_el expandable closed";
+            expandables[i].className = "first_level_el mobile_expandable expandable closed";
           } else {
             var el = document.getElementById(id);
-            el.classList.toggle("closed");
+            el.classList.classList("first_level_el expandable desk-expandable closed");
           }
         }
+      }
+    },
+    expandNavDesk(id){
+      var header = document.getElementById("header");
+      header.classList="el-row el-row--flex open";
+      var expandables = document.getElementsByClassName('desk-expandable');
+      for(var i = 0; i < expandables.length; i++){
+        expandables[i].className = "first_level_el expandable desk-expandable closed";
+      }
+      var el = document.getElementById(id);
+      el.classList.toggle("closed");
+    },
+    hideNav(){
+      console.log("hide");
+      var header = document.getElementById("header");
+      header.classList="el-row el-row--flex";
+      var expandables = document.getElementsByClassName('desk-expandable');
+      for(var i = 0; i < expandables.length; i++){
+        expandables[i].className = "first_level_el expandable desk-expandable closed";
       }
     },
     openCloseMenu() {

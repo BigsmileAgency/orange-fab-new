@@ -133,6 +133,23 @@ header {
     align-items: center;
     justify-content: space-around;
     padding: 10px;
+    @media screen and (min-width: $break-small){
+      padding-bottom: 0;
+      &.open{
+        &::before{
+          content: "";
+          display: block;
+          background-color: $white;
+          position: absolute;
+          height: 38px;
+          width: 100vw;;
+          bottom: -38px;
+          left: 0;
+          z-index: -1;
+          border-top: 1px solid $borderGrey;
+        }
+      }
+    }
     @media screen and (max-width: $break-small) {
       flex-direction: column;
     }
@@ -193,10 +210,24 @@ header {
       font-weight: bold;
       width: 100%;
       padding-left: 70px;
+      &.desktop-menu{
+
+      }
+      &.mobile-menu{
+        display: none;
+      }
+      @media screen and (max-width: $break-small) {
+        &.mobile-menu{
+          display: flex;
+        }
+        &.desktop-menu{
+          display: none;
+        }
+      }
       nav {
         background-color: transparent;
         border: 0;
-        #main_nav{
+        .main_nav{
           padding: 0;
           margin: 0;
           display: block;
@@ -206,6 +237,9 @@ header {
             margin-right: 40px;
             position: relative;
             cursor: pointer;
+            @media screen and (min-width: $break-small) {
+              padding-bottom: 10px;;
+            }
             a{
               color: $black;
               &.router-link-active, &:hover{
@@ -236,14 +270,15 @@ header {
               }
               .subnav{
                 position: absolute;
-                top: 29px;
+                top: 28px;
                 left: -20px;
                 background-color: $white;
                 padding: 0;
                 z-index: -1;
                 opacity: 1;
-                -webkit-box-shadow: 0px 7px 4px 5px rgba(0,0,0,0.05); 
-                box-shadow: 0px 7px 4px 5px rgba(0,0,0,0.05);
+                @media screen and (min-width: $break-small) {
+                  display: flex;
+                }
                 @media screen and (max-width: $break-small) {
                   left: initial;
                   top: initial;
@@ -256,9 +291,15 @@ header {
                   display: block;
                   width: 190px;
                   border-top: 1px solid $borderGrey;
+                  @media screen and (min-width: $break-small){
+                    border-top: 0;
+                  }
                   a{
                     padding: 20px;
                     display: inline-block;
+                    @media screen and (min-width: $break-small){
+                      padding: 10px 20px;
+                    }
                   }
                   @media screen and (max-width: $break-small) {
                     color: $black;
@@ -319,6 +360,44 @@ header {
                   }
                 }
               }
+              // &.closed{
+              //   color: $black;
+              //   &:hover{
+              //     color: $orange;
+              //   }
+              //   .el-submenu__icon-arrow{
+              //     transform: rotate(0deg);
+              //   }
+              //   .subnav{
+              //     top: 20px;
+              //   }
+              //   @media screen and (max-width: $break-small) {
+              //     color: $white;
+              //     a{
+              //       color: $white;
+              //     }
+              //     .subnav{
+              //       height: 0;
+              //       display: block;
+              //       position: inherit;
+              //       width: 100%;
+              //       opacity: 0;
+              //       .subnav_item{
+              //         display: none;
+              //         height: 0;
+              //         padding: 0;
+              //         width: 100%;
+              //         left: 0;
+                  
+              //       }
+              //     }
+              //     &.closed{
+              //       .subnav{
+              //         display: block;
+              //       }
+              //     }
+              //   }
+              // }
             }
           }
         }
@@ -326,7 +405,7 @@ header {
           background-color: $black;
           color: $white;
           width: 100%;
-          #main_nav{
+          .main_nav{
             width: 100%;
             .first_level_el{
               border-top: 1px solid $borderGrey;
