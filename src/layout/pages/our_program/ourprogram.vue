@@ -1,6 +1,7 @@
 <template>
   <div class="main">
-    <header-page mainTitle= "Our program"/>
+    <!-- <header-page mainTitle= "Our program"/> -->
+    <header-sub mainTitle="Our program" :style="{backgroundImage: 'url(' + require('@/assets/body/header_program.jpg') + ')'}" />
   
     <el-main class="container" ref="mainContainer">
       <div id="ourprogram" class="main">
@@ -59,7 +60,7 @@
 import { TweenMax } from "gsap/all";
 import apply from "../../components/apply.vue";
 import keys from "../../components/keys.vue";
-import headerPage from "../../components/headerPage.vue";
+import headerSub from "../../components/headerSub.vue";
 export default {
   name: "ourProgramLayout",
   methods: {
@@ -82,7 +83,7 @@ export default {
   components: {
     apply,
     keys,
-    headerPage
+    headerSub
   },
 };
 </script>

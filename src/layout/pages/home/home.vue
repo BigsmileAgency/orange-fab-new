@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <!-- <header-sub mainTitle="Orange Fab Belgium & Luxemburg <br><span>Start-up accelerator program</span>"/> -->
-    <header-sub mainTitle="Apply for Season 5<br><a href='/applynow' class='header_button'>Click here</a></span>"/>
+    <header-sub mainTitle="Apply for Season 5<br><a href='/applynow' class='header_button'>Click here</a></span>" :style="{backgroundImage: 'url(' + require('@/assets/body/header_home.jpg') + ')'}"/>
 
     <el-main class="container" ref="mainContainer">
       <div id="whoWeAre" class="main">

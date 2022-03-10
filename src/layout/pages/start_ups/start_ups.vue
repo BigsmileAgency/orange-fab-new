@@ -1,6 +1,8 @@
 <template>
   <div class="main">
-    <header-page mainTitle="Our start-ups"/>
+    <!-- <header-page mainTitle="Our start-ups"/>     -->
+    <header-sub mainTitle="Our start-ups" :style="{backgroundImage: 'url(' + require('@/assets/body/header_startup.jpg') + ')'}" />
+  
 
     <el-main class="container" ref="mainContainer">
       <div id="startup" class="main">
@@ -115,7 +117,7 @@
 
 
 <script>
-import headerPage from "../../components/headerPage.vue";
+import headerSub from "../../components/headerSub.vue";
 export default {
   name: "startUpsLayout",
   methods: {
@@ -125,20 +127,20 @@ export default {
       arr.forEach(function(item) {
         var counter = { var: 0 };
         let value = item.dataset.value;
-        TweenMax.to(counter, 0, {
+        TweenMax.to(counter, 3, {
           var: value,
           onUpdate: function() {
             item.innerHTML = Math.ceil(counter.var);
           },
           ease: Circ.easeOut
         });
-        TweenMax.staggerTo(".mipple1", 0, {opacity:1}, 0);
-        TweenMax.staggerTo(".mipple2", 0, {opacity:1}, 0);
+        TweenMax.staggerTo(".mipple1", 0.3, {opacity:1}, 0.3);
+        TweenMax.staggerTo(".mipple2", 0.3, {opacity:1}, 0.35);
       });
     }
   },
   components: {
-    headerPage
+    headerSub
   },
 };
 </script>

@@ -176,7 +176,7 @@ export var en = {
           partners: [{
             img: 'Startit_KBC.jpg',
             name: 'Startit@KBC ',
-            bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis lorem vitae ex venenatis.",
+            bio: "Start it @KBC is Belgium's largest accelerator and supports and promotes entrepreneurs with an innovative idea and scalable business model.The international Start it @KBC community consists of a network of more than 1.200 start-ups and scale-ups that share their experiences and expertise.",
           },{
             img: 'La_Grand_Poste.png',
             name: 'La Grand Poste',
@@ -184,7 +184,7 @@ export var en = {
           },{
             img: 'The_Beacon.png',
             name: 'The Beacon',
-            bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis lorem vitae ex venenatis.",
+            bio: "The Beacon is the Community of digital technology pioneers. It is a virtual and 9,300m² physical meeting space that fosters collaboration. The Beacon creates a context where technology pioneers can be inspired, learn from each other, and ultimately collaborate. ",
           },{
             img: 'Silicon_Luxembourg.png',
             name: 'Silicon Luxembourg',
@@ -192,13 +192,13 @@ export var en = {
           },{
             img: 'logo-orange-ventures.png',
             name: 'Orange Ventures',
-            bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis lorem vitae ex venenatis.",
+            bio: "With €350 million in funds, Orange Ventures is dedicated to investing in innovative start-ups in Orange’s strategic fields of interest and beyond, offering access to the Group's expertise and creating synergies with its vast ecosystem.",
           },{
             img: 'loic_logo.png',
             name: 'LOIC ',
             bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis lorem vitae ex venenatis.",
           },{
-            img: 'employees-orange.png',
+            img: 'loic_logo.png',
             name: 'Le Loft',
             bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis lorem vitae ex venenatis.",
           },
@@ -530,7 +530,7 @@ export var en = {
         }],
         actuality: {
           title: "Our start-ups <span>actualities</span>",
-          cta: "OUR LATEST NEWS", 
+          cta: "Our latest news", 
           url: "news",
         },
       },

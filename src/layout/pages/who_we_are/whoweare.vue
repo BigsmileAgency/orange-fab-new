@@ -1,6 +1,7 @@
 <template>
   <div class="main">
-    <header-page mainTitle="Orange Fab BeLux"/>
+    <!-- <header-page mainTitle="Orange Fab BeLux"/> -->
+    <header-sub mainTitle="Orange Fab BeLux" :style="{backgroundImage: 'url(' + require('@/assets/body/header_who.jpg') + ')'}" />
   
     <el-main class="container" ref="mainContainer">
       <div id="whoWeAre" class="main">
@@ -73,7 +74,7 @@
                 <div class="partner" v-for="(partner, i) in this.$t('pages.whoWeAre.partners.partners')" :key="i">
                   <img :src="require('@/assets/body/who/partners/'+ partner.img)">
                   <h4>{{ partner.name }}</h4>
-                  <!-- <p>{{ partner.bio }}</p> -->
+                  <p>{{ partner.bio }}</p>
                 </div>
               </div>
             </el-row>
@@ -90,7 +91,7 @@
 import { TweenMax } from "gsap/all";
 import apply from "../../components/apply.vue";
 import keys from "../../components/keys.vue";
-import headerPage from "../../components/headerPage.vue";
+import headerSub from "../../components/headerSub.vue";
 export default {
   name: "whoweareLayout",
   methods: {
@@ -113,7 +114,7 @@ export default {
   components: {
     apply,
     keys,
-    headerPage
+    headerSub
   },
 };
 </script>
