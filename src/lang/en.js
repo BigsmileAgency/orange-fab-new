@@ -146,9 +146,9 @@ export var en = {
       whoWeAre: {
         Vision: {
           title: "Orange Fab <span>Belux</span>",
-          text1: "As a trusted partner, Orange gives everyone the keys to a responsible digital world.<br/>Orange’s strategic plan, Engage 2025, is based on two major ambitions:",
-          text2: "<b>1.</b>&nbsp;&nbsp;&nbsp;Build a smarter, more open and more responsible society<br/><b>2.</b>&nbsp;&nbsp;&nbsp;Make innovation useful and accessible to as many people as possible",
-          text3: "Through Orange Fab, Orange Belgium and Luxembourg are acting to support entrepreneurship and build a digital society accessible to all.<br/><br/> At Orange Fab BeLux our mission is to implement win-win partnerships between start-ups and Orange Business Units.<br/> Each year, we select a few start-ups to join our free 6-month accelerator program.<br/><br/> During this period, the Orange Fab Team is here to help your start-up answer its challenges and to give you access to all resources you may need. ",
+          text1: "As a trusted partner, <span>Orange gives everyone the keys to a responsible digital world.</span><br/>Orange’s strategic plan, Engage 2025, is based on two major ambitions",
+          text2: "<b>1.</b>&nbsp;&nbsp;&nbsp;Build a <span>smarter</span>, more <span>open</span> and more <span>responsible</span> society<br/><b>2.</b>&nbsp;&nbsp;&nbsp;Make innovation <span>useful</span> and <span>accessible</span> to as many people as possible",
+          text3: "Through Orange Fab, Orange Belgium and Luxembourg are acting to <span>support entrepreneurship and build a digital society accessible to all.</span><br/><br/> At Orange Fab BeLux our mission is to implement <span>win-win partnerships</span> between start-ups and Orange Business Units.<br/> Each year, we select a few start-ups to join our <span>free 6-month accelerator program.</span><br/><br/> During this period, the Orange Fab Team is here to help your start-up answer its challenges and to give you access to all resources you may need.",
           cta: "Discover our program",
           url: "our-program",
         },
@@ -156,15 +156,15 @@ export var en = {
           title: "Our <span>Team</span>",
           subtitle: "You will have access to:",
           members: [{
-            img: 'employees-orange.png',
+            img: 'Michel.png',
             name: 'Michael Peeters',
             bio: "Innovation Director",
           },{
-            img: 'employees-orange.png',
+            img: 'juliette.png',
             name: 'Juliette Malherbe',
             bio: "Head of Orange Fab BeLux",
           },{
-            img: 'employees-orange.png',
+            img: 'ariane.png',
             name: 'Ariane Chan',
             bio: "Innovation & Start-ups Manager",
           },
@@ -176,32 +176,38 @@ export var en = {
           partners: [{
             img: 'Startit_KBC.jpg',
             name: 'Startit@KBC ',
-            bio: "Start it @KBC is Belgium's largest accelerator and supports and promotes entrepreneurs with an innovative idea and scalable business model.The international Start it @KBC community consists of a network of more than 1.200 start-ups and scale-ups that share their experiences and expertise.",
-          },{
-            img: 'La_Grand_Poste.png',
-            name: 'La Grand Poste',
-            bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis lorem vitae ex venenatis.",
+            bio: "Start it @KBC is Belgium's largest accelerator and supports and promotes entrepreneurs with an innovative idea and scalable business model.",
+            url: 'https://startit.be/',
           },{
             img: 'The_Beacon.png',
             name: 'The Beacon',
-            bio: "The Beacon is the Community of digital technology pioneers. It is a virtual and 9,300m² physical meeting space that fosters collaboration. The Beacon creates a context where technology pioneers can be inspired, learn from each other, and ultimately collaborate. ",
-          },{
-            img: 'Silicon_Luxembourg.png',
-            name: 'Silicon Luxembourg',
-            bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis lorem vitae ex venenatis.",
+            bio: "The Beacon is the Community of digital technology pioneers. It is a virtual and 9,300m² physical meeting space that fosters collaboration. ",
+            url: 'https://www.thebeacon.eu/',
           },{
             img: 'logo-orange-ventures.png',
             name: 'Orange Ventures',
-            bio: "With €350 million in funds, Orange Ventures is dedicated to investing in innovative start-ups in Orange’s strategic fields of interest and beyond, offering access to the Group's expertise and creating synergies with its vast ecosystem.",
+            bio: "With €350 million in funds, Orange Ventures is dedicated to investing in innovative start-ups in Orange’s strategic fields of interest and beyond.",
+            url: 'https://ventures.orange.com/',
           },{
-            img: 'loic_logo.png',
-            name: 'LOIC ',
-            bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis lorem vitae ex venenatis.",
+            img: 'La_Grand_Poste.png',
+            name: 'La Grand Poste',
+            bio: "La Grand Poste hosts a community of creative entrepreneurs with a focus on the digital, the media and the entertainment industries.",
+            url: 'https://www.lagrandposte.be/ ',
           },{
-            img: 'loic_logo.png',
-            name: 'Le Loft',
-            bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis lorem vitae ex venenatis.",
+            img: 'Silicon_Luxembourg.png',
+            name: 'Silicon Luxembourg',
+            bio: "Silicon Luxembourg is a fast-growing media venture designed to profile startups and promote entrepreneurial activity in Luxembourg and the Greater Region.",
+            url: 'https://www.siliconluxembourg.lu/',
           },
+          // {
+          //   img: 'loic_logo.png',
+          //   name: 'LOIC ',
+          //   bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis lorem vitae ex venenatis.",
+          // },{
+          //   img: 'loic_logo.png',
+          //   name: 'Le Loft',
+          //   bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis lorem vitae ex venenatis.",
+          // },
           ],
         },
         contact: {
@@ -284,12 +290,12 @@ export var en = {
           },
           {
             title: 'Evaluation',
-            description: 'Your application is under review and will come back to you soon.',
+            description: 'Your application is under review and we will come back to you soon.',
             color: 'purple',
             image: 'Evaluation'
           },{
             title: 'Pitch',
-            description: 'Present your project and why you want to join our program in front of our C-Levels.',
+            description: 'Present your project and why you want to join our program in front of our<br/>C-Levels.',
             color: 'green',
             image: 'Pitch'
           },{
@@ -299,7 +305,7 @@ export var en = {
             image: 'Workshop'
           },{
             title: 'Acceleration',
-            description: 'Welcome to the Orange Fab community, we have 6-months to launch innovative projects! ',
+            description: 'Welcome to the Orange Fab community, we have 6 months to launch innovative projects!',
             color: 'pink',
             image: 'Acceleration'
           },{
@@ -313,7 +319,7 @@ export var en = {
         },
         season5: {
           title: "Orange Fab Season 5&nbsp;:<br/><span>Join our 6-month acceleration program!</span>",
-          subtitle: "Orange Fab BeLux is launching its fifth season and we are looking for game-changing start-ups to join our unique and&nbsp;custom-made accelerator!<br/><br/> Our goal for the new season: Propose inventive new experiences to our end customers in Belgium and Luxembourg.<br/><br/>Your start-up works with augmented reality or virtual reality technologies?<br/>You propose advanced experiences in the areas of entertainment, sportech, gaming or retail?<br/> Apply to our program and let's develop a business-oriented project together!<br/><br/>We are looking for start-ups with existing product and customers that are, looking to scale-up.",
+          subtitle: "Orange Fab BeLux is launching its <span>fifth season</span> and we are looking for game-changing start-ups to join our unique and custom-made accelerator!<br/><br/>Our goal for the new season: <span>Propose inventive new experiences to our end customers</span> in Belgium and Luxembourg.<br/><br/>Your start-up works with <span>augmented reality and virtual reality technologies or the metaverse</span>?<br/>You propose advanced experiences in the areas of <span>new shop and retail experiences, entertainment, sports technology, cybersecurity&nbsp;and&nbsp;healthcare</span>?<br/>Apply to our program and let's develop a business-oriented project together!<br/><br/> We are looking for start-ups with existing product and customers that are, looking to scale-up.",
           cta: 'Apply!',
           url: 'applynow',
         },
@@ -382,8 +388,8 @@ export var en = {
       },
       ourprogram: {
         apply:{
-          title: "<br/>Season <span>5</span>",
-          intro: "<h3>Orange Fab BeLux is launching its fifth season and we are looking for game-changing start-ups<br/>to join our unique and <span>custom-made accelerator!</span></h3>Our goal this year: <b>propose innovative and disruptive experiences to our end customers</b> in Belgium and Luxembourg.<br/><br/>Your start-up works with augmented reality or virtual reality technologies?<br/>You propose innovative experiences in the areas of entertainment, sportech, gaming or retail?<br/> Apply to our program and let's develop a business-oriented project together! <br/><br/>By joining the Orange Fab Accelerator you will benefit from the support of our experts, access to our networking and distribution assets, develop exclusive contracts with our business units and customers but also increase your visibility and unlock unique opportunities within the global Orange Group! <br/><br/>Applications to join Season 5 of the Orange Fab BeLux are open until <b>8 April 2022</b>.<br/>We will then select 5 start-ups to participate in our pitch contest at the end of April in front of our jury consisting of Orange executives.<br/>The laureates will join our accelerator program for the next 6-months and develop new projects with Orange teams!<br/><br/><b>Good luck!</b><br/><br/>",
+          title: "Season <span>5</span>",
+          intro: "<h3>Orange Fab BeLux is launching its fifth season and we are looking for game-changing start-ups<br/>to join our unique and <span>custom-made accelerator!</span></h3>Our goal for the new season: <span>Propose inventive new experiences to our end customers</span> in Belgium and Luxembourg. <br/><br/> Your start-up works with <span>augmented reality and virtual reality technologies or the metaverse</span>?<br/> You propose advanced experiences in the areas of <span>new shop and retail experiences, entertainment, sports technology, cybersecurity&nbsp;and&nbsp;healthcare</span>?<br/> Apply to our program and let's develop a business-oriented project together! <br/><br/><span>Good luck!</span>",
         },
         timeline:{
           title: "<span>Timeline</span>",
@@ -415,31 +421,31 @@ export var en = {
             type: 'network',
             title: "Networking & Distribution",
             list: [
-              "Benefit from the <span>networking assets</span> of a big corporation (data, customer bases, sales channel, etc.)",
-              "<span><strong>Market intelligence</strong></span>",
-              "<strong><span>Exclusive contact</span> with our B2B/B2C customers</strong>",
+              "Benefit from the <span>networking assets</span> of a big corporation (data, customer bases, sales channel, etc.)",
+              "Market intelligence",
+              "<span>Exclusive contact</span> with our B2B/B2C customers",
             ],
           },{
             type: 'mentor',
             title: "Mentoring & Support",
             list: [
-              "<strong>Direct access to <span>C-level</span></strong>",
-              "<span>Support</span> from experts",
-              "<span>Financial support by Orange Belgium & Luxembourg to implement a demo",
+              "Direct access to <span>C-level</span>",
+              "Support from <span>experts</span>",
+              "<span>Financial support</span> by Orange Belgium & Luxembourg to implement a demo",
             ],
           },{
             type: 'events',
             title: "Events",
             list: [
-              "<strong>Invitation to <span>regional</span>, <span>national</span> and <span>international</span> events</strong>",
-              "<strong>Participation to industry leading <span>workshop</span></strong>",
+              "Invitation to regional, national and international <span>events</span>",
+              "Participation to industry leading workshops",
             ],
           },{
             type: 'inter',
             title: "International",
             list: [
-              "<strong>Part of the biggest international corporate accelerator</strong>",
-              "<strong><span>22 countries</span> all around the globe</strong>",
+              "Part of <span>the biggest international corporate accelerator</span>",
+              "22 countries all around the globe",
             ],
           }],
           eligibility:{
@@ -823,11 +829,8 @@ export var en = {
         name: "Israel",
         url: "http://orangefab.co.il/"
       },{
-        name: "Ivory Coast",
-        url: "http://www.orangefab.ci/"
-      },{
         name: "Jordan",
-        url: "https://www.orange.jo/en/big/pages/default.aspx"
+        url: "https://www.orange.jo/en/csr/pages/big.aspx"
       },{
         name: "Madagascar",
         url: "https://orangefab.mg/fr/"

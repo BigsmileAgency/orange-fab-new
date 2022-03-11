@@ -23,7 +23,7 @@
             <el-row class="content">
               <h2 class="subtitle" v-html="$t('pages.whoWeAre.season5.title')" style="margin-bottom: 30px"></h2>
               <p class="subtext" v-html="$t('pages.whoWeAre.season5.subtitle')" style="margin-bottom: 30px"></p>
-              <img class="theme_picture" :src="require('@/assets/body/theme.jpg')">
+              <img class="theme_picture" :src="require('@/assets/body/theme.png')">
               <a class="cta bordered" :href="$t('pages.ourprogram.ServiceOffer.url')" v-html="$t('pages.ourprogram.ServiceOffer.cta')"></a>
             </el-row>
           </div>

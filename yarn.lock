@@ -7403,6 +7403,11 @@ vue-analytics@^5.16.1:
   resolved "https://registry.yarnpkg.com/vue-analytics/-/vue-analytics-5.22.1.tgz#9d6b32da56daee1b9dfb23a267b50349a03f710f"
   integrity sha512-HPKQMN7gfcUqS5SxoO0VxqLRRSPkG1H1FqglsHccz6BatBatNtm/Vyy8brApktZxNCfnAkrSVDpxg3/FNDeOgQ==
 
+vue-body-class@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/vue-body-class/-/vue-body-class-3.0.2.tgz#5a581b82f247642a34454b2e3e3e1191c2f55070"
+  integrity sha512-IeoB46l+lNG2u3sS61TBGh6OBsG//ucmkj5YOqKnOQUMpD1yBHqlNZ8Rkhzr0jck2xSuRAdm5imSt9ZIe8i0Mg==
+
 vue-check-view@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/vue-check-view/-/vue-check-view-0.3.0.tgz#813509a73916dd99483eaa4b1b24ca189c50ca7b"

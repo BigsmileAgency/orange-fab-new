@@ -87,6 +87,9 @@
     &.el-button{
       &--primary{
         border: 1px solid $orange;
+        span{
+          color: unset;;
+        }
         &:hover{
           background-color: transparent;
           color: $orange;

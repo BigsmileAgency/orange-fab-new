@@ -82,14 +82,14 @@
             <el-input type="text" v-model="form.selling_point"></el-input>
           </el-form-item>
         </el-col>
-      </el-row>
+      </el-row> -->
 
       <el-row :gutter="20" class="steps__button--nav">
         <el-col :xs="24">
           <el-button type="back" @click="goBack">Go back</el-button>
           <el-button type="primary" @click="submitStep2('form')">Next Step</el-button>
         </el-col>
-      </el-row> -->
+      </el-row>
 
     </el-form>
   </el-main>

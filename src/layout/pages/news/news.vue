@@ -1,7 +1,8 @@
 <template>
   <div id="news" class="main">
 
-    <header-page mainTitle= "News"/>
+    <header-sub mainTitle="News" :style="{backgroundImage: 'url(' + require('@/assets/body/header_news.jpg') + ')'}" />
+  
     <!-- <el-main class="header-top"></el-main> -->
 
     <el-main class="container">
@@ -60,11 +61,11 @@
 </template>
 
 <script>
-import headerPage from "../../components/headerPage.vue";
+import headerSub from "../../components/headerSub.vue";
 export default {
   name: "newsLayout",
   components: {
-    headerPage
+    headerSub
   },
 };
 </script>

@@ -6,7 +6,36 @@ body {
   margin: 0;
   padding: 0;
   background-color: #e5e5e5;
-  @include typo(16px, $black, normal, 1.125);
+  // @include typo(16px, $black, normal, 1.125);
+  font-family: 'HelveticaNeue-Roman';
+  font-size: 16px;
+  color: $black;
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  line-height: 1.125;
+  *{
+    font-weight: normal !important;
+    h1, h2, h3, h4, h5, h6, b, strong, span{
+      font-family: 'HelveticaNeue-Bold';    
+      font-weight: normal !important;
+      font-style: normal !important;
+      font-display: swap !important;
+      span{
+        color: $orange;
+      }
+    }
+    p, li{
+      span{
+        color: $orange;
+      }
+    }
+  }
+  .el-alert--error{
+    span{
+      color: unset;
+    }
+  }
 }
 a {
   text-decoration: none;
@@ -38,7 +67,7 @@ a {
   text-align: center;
   & + p{
     // font-size: 1.4em;
-    // font-weight: bold;
+    //font-family: 'HelveticaNeue-Bold';
     @media screen and (max-width: $break-small) {
       font-size: 14px;
     }
@@ -72,7 +101,7 @@ button {
     border: none;
     color: $white;
     padding: 15px 25px;
-    font-weight: bold;
+    font-family: 'HelveticaNeue-Bold';
     font-size: 25px;
     margin: 0 auto 35px;
     display: block;
@@ -181,7 +210,7 @@ sup{
       margin-top: 35px;
       a {
         font-size: 35px;
-        font-weight: bold;
+        font-family: 'HelveticaNeue-Bold';
         @media screen and (max-width: $break-small) {
           font-size: 7vw;
           line-height: 7vw;
@@ -203,7 +232,7 @@ sup{
       color: black;
       border: 1px solid black;
       font-size: 20px;
-      font-weight: bold;
+      font-family: 'HelveticaNeue-Bold';
       padding: 1rem 2rem;
       &:hover {
         background: $orange;
@@ -271,7 +300,7 @@ sup{
         color: #ffffff;
         background-color: #000000;
         padding: 15px 20px;
-        font-weight: bold;
+        font-family: 'HelveticaNeue-Bold';
         font-size: 1.1rem;
       }
     }

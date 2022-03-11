@@ -11,7 +11,7 @@
         <el-col class="website__input" :xs="{span : 24, offset : 0}" :md="12">
           <el-form-item :label="$t('pages.form.step1.form.website')" prop="website">
             <el-input v-model="form.website">
-              <template slot="prepend">http://</template>
+              <template slot="prepend">https://</template>
             </el-input>
           </el-form-item>
         </el-col>
