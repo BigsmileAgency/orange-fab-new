@@ -22,9 +22,16 @@
           <div id="season5" class="content-layout white" v-view.once="onceHandler">
             <el-row class="content">
               <h2 class="subtitle" v-html="$t('pages.whoWeAre.season5.title')" style="margin-bottom: 30px"></h2>
-              <p class="subtext" v-html="$t('pages.whoWeAre.season5.subtitle')" style="margin-bottom: 30px"></p>
-              <img class="theme_picture" :src="require('@/assets/body/theme.png')">
-              <a class="cta bordered" :href="$t('pages.ourprogram.ServiceOffer.url')" v-html="$t('pages.ourprogram.ServiceOffer.cta')"></a>
+              <el-row>
+                <el-col :xs="24" :sm="24" :md="12" :lg="15" :xl="15">
+                  <p class="subtext" v-html="$t('pages.whoWeAre.season5.subtitle')" style="margin-bottom: 30px"></p>
+                  <a class="cta bordered nomob" :href="$t('pages.ourprogram.ServiceOffer.url')" v-html="$t('pages.ourprogram.ServiceOffer.cta')"></a>
+                </el-col>
+                <el-col :xs="24" :sm="24" :md="12" :lg="9" :xl="9">
+                  <img class="theme_picture" :src="require('@/assets/body/theme.png')">
+                </el-col>
+              </el-row>
+              <a class="cta bordered onlymob" :href="$t('pages.ourprogram.ServiceOffer.url')" v-html="$t('pages.ourprogram.ServiceOffer.cta')"></a>
             </el-row>
           </div>
           <!--  -->

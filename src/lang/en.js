@@ -1,7 +1,7 @@
 export var en = {
   en: {
     header: {
-      title: "Fab Belgium & Luxemburg",
+      title: "Fab Belgium & Luxembourg",
       items: [
         {
           name: "Who we are",
