@@ -14,7 +14,7 @@ export var en = {
           },
           subLinks: [
             {
-              name: "Orange Fab Belux",
+              name: "Orange Fab BeLux",
               link: {
                 name: "home_child",
                 hash: "who-we-are",
@@ -113,7 +113,7 @@ export var en = {
             },
           },
         },{
-          name: "Join-us",
+          name: "Join us",
           link: {
             name: "join_us_child",
             params: {
@@ -145,7 +145,7 @@ export var en = {
       },
       whoWeAre: {
         Vision: {
-          title: "Orange Fab <span>Belux</span>",
+          title: "Orange Fab <span>BeLux</span>",
           text1: "As a trusted partner, <span>Orange gives everyone the keys to a responsible digital world.</span><br/>Orange’s strategic plan, Engage 2025, is based on two major ambitions",
           text2: "<b>1.</b>&nbsp;&nbsp;&nbsp;Build a <span>smarter</span>, more <span>open</span> and more <span>responsible</span> society<br/><b>2.</b>&nbsp;&nbsp;&nbsp;Make innovation <span>useful</span> and <span>accessible</span> to as many people as possible",
           text3: "Through Orange Fab, Orange Belgium and Luxembourg are acting to <span>support entrepreneurship and build a digital society accessible to all.</span><br/><br/> At Orange Fab BeLux our mission is to implement <span>win-win partnerships</span> between start-ups and Orange Business Units.<br/> Each year, we select a few start-ups to join our <span>free 6-month accelerator program.</span><br/><br/> During this period, the Orange Fab Team is here to help your start-up answer its challenges and to give you access to all resources you may need.",
@@ -299,7 +299,7 @@ export var en = {
             color: 'green',
             image: 'Pitch'
           },{
-            title: 'Acceleration workshop',
+            title: 'Kick-off workshop',
             description: 'Let’s find out together how we can collaborate to best advantage!',
             color: 'yellow',
             image: 'Workshop'
@@ -309,7 +309,7 @@ export var en = {
             color: 'pink',
             image: 'Acceleration'
           },{
-            title: 'Long term partnerships',
+            title: 'Long-term partnerships',
             description: 'As an Orange Fab Alumni you now benefit from a long-term collaboration to scale up your projects.',
             color: 'green',
             image: 'Partnerships'
@@ -318,16 +318,16 @@ export var en = {
           url: 'our-program',
         },
         season5: {
-          title: "Orange Fab Season 5&nbsp;:<br/><span>Join our 6-month acceleration program!</span>",
-          subtitle: "Orange Fab BeLux is launching its <span>fifth season</span> and we are looking for game-changing start-ups to join our unique and custom-made accelerator!<br/><br/>Our goal for the new season: <span>Propose inventive new experiences to our end customers</span> in Belgium and Luxembourg.<br/><br/>Your start-up works with <span>augmented reality and virtual reality technologies or the metaverse</span>?<br/>You propose advanced experiences in the areas of <span>new shop and retail experiences, entertainment, sports technology, cybersecurity&nbsp;and&nbsp;healthcare</span>?<br/>Apply to our program and let's develop a business-oriented project together!<br/><br/> We are looking for start-ups with existing product and customers that are, looking to scale-up.",
+          title: "Orange Fab Season 5<br/><span>Join our 6-month acceleration program!</span>",
+          subtitle: "Orange Fab BeLux is launching its <span>fifth season</span> and we are looking for&nbsp;game&#8209;changing start&#8209;ups to join our unique and custom&#8209;made accelerator!<br/><br/>Our goal for the new season: <span>Propose inventive new experiences to our end&nbsp;customers</span> in Belgium and Luxembourg.<br/><br/>Your start-up works with <span>augmented reality</span> and <span>virtual reality</span> technologies or the <span>metaverse</span></span>?<br/>You propose advanced experiences in the areas of <span>new shop</span> and <span>retail experiences, entertainment, sports technology, cybersecurity&nbsp;</span>and<span>&nbsp;healthcare</span>?<br/><br/>Apply to our program and let's develop a business-oriented project together!<br/><br/> We are looking for start-ups with existing product and customers that are looking to scale-up.",
           cta: 'Apply!',
           url: 'applynow',
         },
         welcome: {
           title: "Welcome on our <span>Orange Fab website</span><br/>Orange’s start&#x2011;up accelerator<br/>for Belgium and Luxembourg!",
           subtitle:"<span>Who are we ?…</span>",
-          text: "<strong>Orange Fab supports, promotes and partners with the best digital start-ups of today, who&nbsp;will&nbsp;influence the&nbsp;way&nbsp;we&nbsp;will&nbsp;live&nbsp;tomorrow.</strong><br/><br/>At Orange Fab BeLux our objective is to <span>build win-win business partnerships between start-ups from&nbsp;Belgium&nbsp;&&nbsp;Luxembourg and actors of our Orange ecosystem.</span>",
-          cta: "Apply now !",
+          text: "<strong>Orange Fab supports, promotes and partners with the best digital start-ups of today, who&nbsp;will&nbsp;influence the&nbsp;way&nbsp;we&nbsp;will&nbsp;live&nbsp;tomorrow.</strong><br/><br/>At Orange Fab BeLux our objective is to build <span>win-win business partnerships</span> between start-ups from&nbsp;Belgium&nbsp;&&nbsp;Luxembourg<br/>and actors of our Orange ecosystem.",
+          cta: "Apply now!",
           link: "applynow"
         },
         season4: {
@@ -358,10 +358,10 @@ export var en = {
         international: {
           title: "Orange Fab <span>Network</span>",
           subTitle:
-            "<strong>Orange has developed <span>the first corporate accelerator network</span> in the world.</strong> <br> <br> We aim for cross-acceleration and internationalization within the start-ups that we support. We are involved with 22 Orange Fabs on 4 continents across the globe.<br/><br/>Join-us to develop your business in new markets!",
+            "<strong>Orange has developed <span>the first corporate accelerator network</span> in the world.</strong> <br> <br> We aim for cross-acceleration and internationalization within the start-ups that we support.<br/>We are involved with 22 Orange Fabs on 4 continents across the globe.<br/><br/>Join-us to develop your business in new markets!",
         },
         business: {
-          title: "Business acceleration in <span>Orange Fab Belgium</span>",
+          title: "Business acceleration in <span>Orange Fab BeLux</span>",
           acceleration: [{
             title: "Applications received since the start in 2016",
             value: 251,
@@ -389,7 +389,7 @@ export var en = {
       ourprogram: {
         apply:{
           title: "Season <span>5</span>",
-          intro: "<h3>Orange Fab BeLux is launching its fifth season and we are looking for game-changing start-ups<br/>to join our unique and <span>custom-made accelerator!</span></h3>Our goal for the new season: <span>Propose inventive new experiences to our end customers</span> in Belgium and Luxembourg. <br/><br/> Your start-up works with <span>augmented reality and virtual reality technologies or the metaverse</span>?<br/> You propose advanced experiences in the areas of <span>new shop and retail experiences, entertainment, sports technology, cybersecurity&nbsp;and&nbsp;healthcare</span>?<br/> Apply to our program and let's develop a business-oriented project together! <br/><br/><span>Good luck!</span>",
+          intro: "<h3>Orange Fab BeLux is launching its <span>fifth season</span> and we are looking for&nbsp;game&#8209;changing start-ups<br/>to join our unique and custom-made accelerator!</h3>Our goal for the new season: <span>Propose inventive new experiences to our end customers</span> in Belgium and Luxembourg. <br/><br/> Your start-up works with <span>augmented reality</span> and <span>virtual reality</span> technologies or the <span>metaverse?</span><br/> You propose advanced experiences in the areas of <span>new shop</span> and <span>retail experiences, entertainment, sports technology, cybersecurity&nbsp;</span>and<span>&nbsp;healthcare</span>?<br/><br/> Apply to our program and let's develop a business-oriented project together! <br/><br/><span>Good luck!</span>",
         },
         timeline:{
           title: "<span>Timeline</span>",
@@ -412,7 +412,7 @@ export var en = {
           title: "Our <span>offer</span>",
           subtitle: "You will have access to:",
           Applytitle: "What we are looking for",
-          cta: "Apply now !",
+          cta: "Apply now!",
           url: "applynow",
           cta_startups: "Discover our start-ups",
           url_startups: "start-ups",
@@ -465,7 +465,7 @@ export var en = {
         },
       },
       startup: {
-        title: "Alumnis",
+        title: "Alumni",
         subtitle: "<span>(season 1-4)</span>",
         sub:
           "Congrats to the 3 winning startups for being selected for the 1st season of Orange Fab Belux!",
@@ -508,7 +508,7 @@ export var en = {
           image: "ireachm",
           season: 2,
         },{
-          link: "https://www.thingsplay.com/",
+
           image: "thingsplay",
           season: 2,
         },{

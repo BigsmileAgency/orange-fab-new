@@ -23,7 +23,7 @@
                     <img :src="require('@/assets/body/logo/'+ bloc.image +'.jpg')" alt>
                   </a>
                   <el-row class="season-bot">
-                    <el-col :xs="12" :md="12">
+                    <el-col v-if="bloc.link" :xs="12" :md="12">
                       <a class="cta" :href="bloc.link" target="_blank">View more</a>
                     </el-col>
                     <el-col class="season" :xs="12" :md="12">Season {{ bloc.season }}</el-col>
@@ -76,7 +76,7 @@
                 </svg>
               </div>
               <span ref="num" class="numb" :class="bloc.color" :data-value="bloc.value">0</span><span class="numb mauve">/10</span>
-              <h4>{{ bloc.title }}</h4>
+              <h4 v-html="bloc.title"></h4>
             </el-col>
           </el-row>
         </div>
