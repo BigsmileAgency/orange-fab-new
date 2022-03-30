@@ -358,7 +358,7 @@ export var en = {
         international: {
           title: "Orange Fab <span>Network</span>",
           subTitle:
-            "<strong>Orange has developed <span>the first corporate accelerator network</span> in the world.</strong> <br> <br> We aim for cross-acceleration and internationalization within the start-ups that we support.<br/>We are involved with 22 Orange Fabs on 4 continents across the globe.<br/><br/>Join-us to develop your business in new markets!",
+            "<strong>Orange has developed <span>the first corporate accelerator network</span> in the world.</strong> <br> <br> We aim for cross-acceleration and internationalization within the start-ups that we support.<br/>We are involved with 22 Orange Fabs on 4 continents across the globe.<br/><br/>Join us to develop your business in new markets!",
         },
         business: {
           title: "Business acceleration in <span>Orange Fab BeLux</span>",

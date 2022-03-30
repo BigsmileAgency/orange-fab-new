@@ -12,7 +12,7 @@ class db {
     // private $user     = 'root';
     // private $password = '';
 
-  //STAGING : orangefab.staging.bigsmile.be
+  //STAGING : orangefab.bigsmile.be
     private $host     = 'localhost:3306';
     private $db       = 'orangefab_staging';
     private $user     = 'orange_user_stg';
@@ -23,6 +23,12 @@ class db {
     // private $db       = 'orangefab';
     // private $user     = 'orangefab';
     // private $password = '5689/*vb';
+
+    // // PROD2
+    //   private $host     = 'localhost:3306';
+    //   private $db       = 'orangefab';
+    //   private $user     = 'orangefab';
+    //   private $password = 'hbi9MmmS8r^0Dwmo';
 
     private $pdo;
 

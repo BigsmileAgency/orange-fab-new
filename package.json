@@ -17,7 +17,7 @@
     "js-file-download": "^0.4.1",
     "papaparse": "^4.5.0",
     "vue": "^2.6.10",
-    "vue-analytics": "^5.16.1",
+    "vue-analytics": "^5.22.1",
     "vue-body-class": "^3.0.2",
     "vue-check-view": "^0.3.0",
     "vue-head": "^2.1.1",

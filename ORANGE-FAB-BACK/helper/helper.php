@@ -6,7 +6,8 @@ use \Firebase\JWT\JWT;
 
 class helper {
     // public static $base_url = 'https:localhost:3333/';
-    public static $base_url = 'orangefab.bigsmile.be';
+    // public static $base_url = 'orangefab.bigsmile.be';
+    public static $base_url = 'orangefab.be';
     public static $auth_header = 'Auth';
     private static $instance;
     private static $key = "$546FEQFp$(4";
