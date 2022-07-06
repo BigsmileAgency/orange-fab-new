@@ -318,8 +318,8 @@ export var en = {
           url: 'our-program',
         },
         season5: {
-          title: "Orange Fab Season 5<br/><span>Join our 6-month acceleration program!</span>",
-          subtitle: "Orange Fab BeLux is launching its <span>fifth season</span> and we are looking for&nbsp;game&#8209;changing start&#8209;ups to join our unique and custom&#8209;made accelerator!<br/><br/>Our goal for the new season: <span>Propose inventive new experiences to our end&nbsp;customers</span> in Belgium and Luxembourg.<br/><br/>Your start-up works with <span>augmented reality</span> and <span>virtual reality</span> technologies or the <span>metaverse</span></span>?<br/>You propose advanced experiences in the areas of <span>new shop</span> and <span>retail experiences, entertainment, sports technology, cybersecurity&nbsp;</span>and<span>&nbsp;healthcare</span>?<br/><br/>Apply to our program and let's develop a business-oriented project together!<br/><br/> We are looking for start-ups with existing product and customers that are looking to scale-up.",
+          title: "Orange Fab Season 5<br/><span>Discover our selected start-ups</span>",
+          subtitle: "On June 1st, 2022, Orange Fab BeLux selected 3 promising start-ups to join its 5th season: Nirli, Virtual Rangers and WithVR.<br/><br/>Our goal for this year: <span>Propose inventive new experiences to our end&nbsp;customers</span> in Belgium and Luxembourg.<br/><br/>Orange Fab BeLux and the selected start-ups will work during the 6 months of the acceleration to implement an innovative project together!<br/><br/>Our Season 5 start-ups:<br/><br/><span>Nirli</span> builds AR, VR and metaverses’ experiences in the sectors of health, building, retail or industry.<br/><br/> Made in Luxembourg, <span>Virtual Rangers</span> develops tailor made VR, AR, Metaverse and gaming experiences for their customers.<br/><br/><span>WithVR</span> creates personalized virtual reality situations so people with speech disabilities and differences can have a safe space to speak.",
           cta: 'Apply!',
           url: 'applynow',
         },
@@ -364,11 +364,11 @@ export var en = {
           title: "Business acceleration in <span>Orange Fab BeLux</span>",
           acceleration: [{
             title: "Applications received since the start in 2016",
-            value: 251,
+            value: 276,
             color: 'white'
           },{
             title: "Start-ups accelerated since 2016",
-            value: 13,
+            value: 16,
             color: 'green'
           },{
             title: "Partnerships signed since 2016",
@@ -388,8 +388,8 @@ export var en = {
       },
       ourprogram: {
         apply:{
-          title: "Season <span>5</span>",
-          intro: "<h3>Orange Fab BeLux is launching its <span>fifth season</span> and we are looking for&nbsp;game&#8209;changing start-ups<br/>to join our unique and custom-made accelerator!</h3>Our goal for the new season: <span>Propose inventive new experiences to our end customers</span> in Belgium and Luxembourg. <br/><br/> Your start-up works with <span>augmented reality</span> and <span>virtual reality</span> technologies or the <span>metaverse?</span><br/> You propose advanced experiences in the areas of <span>new shop</span> and <span>retail experiences, entertainment, sports technology, cybersecurity&nbsp;</span>and<span>&nbsp;healthcare</span>?<br/><br/> Apply to our program and let's develop a business-oriented project together! <br/><br/><span>Good luck!</span>",
+          title: "Orange Fab Season 5<br><span>Discover our selected start-ups</span>",
+          intro: "<h3>On June 1st, 2022, Orange Fab BeLux selected 3 promising start-ups<br/>to join its 5th season: Nirli, Virtual Rangers and WithVR.</h3>Our goal for this year: <span>Propose inventive new experiences to our end customers</span> in Belgium and Luxembourg. <br/><br/> Orange Fab BeLux and the selected start-ups will work during the 6 months of the acceleration to implement an innovative project together!<br/><br/>Our Season 5 start-ups: <br/><br/><span>Nirli</span> builds AR, VR and metaverses’ experiences in the sectors of health, building, retail or industry.<br/><br/>Made in Luxembourg, <span>Virtual Rangers</span> develops tailor made VR, AR, Metaverse and gaming experiences for their customers.<br/><br/><span>WithVR</span> creates personalized virtual reality situations so people with speech disabilities and differences can have a safe space to speak.<br/><br/>Applications for the 6th season will open beginning of 2023",
         },
         timeline:{
           title: "<span>Timeline</span>",
@@ -466,12 +466,24 @@ export var en = {
       },
       startup: {
         title: "Alumni",
-        subtitle: "<span>(season 1-4)</span>",
+        subtitle: "<span>(season 1-5)</span>",
         sub:
           "Congrats to the 3 winning startups for being selected for the 1st season of Orange Fab Belux!",
         // saison2: " Season 2",
         // saison3: " Season 3",
         blocs: [{
+          link: "https://www.nirli.eu/",
+          image: "nirli",
+          season: 5,
+        },{
+          link: "https://withvr.app/",
+          image: "withVR",
+          season: 5,
+        },{
+          link: "https://virtual-rangers.com/",
+          image: "virtualrangers",
+          season: 5,
+        },{
           link: "https://iristick.com/",
           image: "iristick",
           season: 4,
@@ -559,19 +571,44 @@ export var en = {
           },
         ],
         lastArticles: [{
-          title: "OTIV innovates with self-driving 5G rail vehicles",
-          image: "OTIV",
-          link: "https://business.orange.be/en/discover/news/otiv-innovates-self-driving-5g-rail-vehicles",
-          txt: "“Autonomous driving on rails” by OTIV is one of the 5G use cases supported by the Orange Fab programme. The start-up can count on the expertise of Orange Belgium for the necessary connectivity. “Thanks to the extensive Orange network, we are in touch with potential customers all over Europe,” OTIV co-founder Sam De Smet says."
+          title: "Virtual Rangers, Nirli et withVR rejoignent la 5ème saison du programme d'accélérateur de start-ups d'Orange Belgium : Orange Fab BeLux",
+          image: "orange-fab",
+          link: "https://corporate.orange.be/fr/news-medias/virtual-rangers-nirli-et-withvr-rejoignent-la-5%C3%A8me-saison-du-programme-dacc%C3%A9l%C3%A9rateur-de",
+          txt: "Au terme d’un processus de présélection rigoureux, et après les présentations des divers participants, Virtual Rangers, Nirli et withVR rejoignent officiellement la 5ème saison du programme Orange Fab. Ce tremplin leur permettra d'innover sur des applications 5G au sein du cadre global du Groupe Orange et de ses 18 Orange Fab à travers le monde."
         },{
-          title: "5G - Orange installe un « Lab 5G » à Liège également",
-          image: "5G-lab",
-          link: "#",
-          txt: "Après Anvers en octobre dernier, Orange Belgium s’associe avec le hub La Grand Poste pour créer un « 5G Lab » à Liège, annonce l’opérateur mardi."
+          title: "Orange Belgium lance un Orange Digital Center, un vaste pôle dédié aux initiatives d’inclusion digitale et d’innovation",
+          image: "odc",
+          link: "https://corporate.orange.be/fr/news-medias/orange-belgium-lance-un-orange-digital-center-un-vaste-p%C3%B4le-d%C3%A9di%C3%A9-aux-initiatives-d",
+          txt: "Afin de réduire la fracture numérique, Orange Belgium a ouvert aujourd’hui un Orange Digital Center au cœur de Bruxelles, en présence de Petra De Sutter, Vice-Première ministre et ministre de la Fonction publique, des Entreprises publiques, des Télécommunications et de la Poste, et Mari-Noëlle Jégo-Laveissière, Directrice Générale Adjointe du Groupe Orange, en charge des activités opérationnelles d’Orange en Europe."
+        },{
+          title: "Virtual Rangers, Nirli et WithVR, start-up lauréates de la 5ème édition d’Orange Fab AR, VR et Métavers.",
+          image: "winners",
+          link: "https://techsense.lu/news/virtual-rangers-nirli-withvr-start-up-laurates-orange",
+          txt: "La 5ème saison d’Orange Fab était consacrée aux solutions AR, VR ou métavers contribuant à améliorer l’expérience clients ou à en créer de nouvelles. Virtual Rangers, Nirli et WithVR sont les 3 start-up lauréates de cette édition Orange Fab 2022. Ces start-up bénéficieront du programme d’accélération d’Orange pendant 6 mois."
+        },{
+          title: "Virtual Rangers, Nirli And WithVR Up Winners Of Orange Fab 2022",
+          image: "winners",
+          link: "https://www.siliconluxembourg.lu/virtual-rangers-nirli-and-withvr-up-winners-of-orange-fab-2022/",
+          txt: "The 3 startups specialised in AR, VR and Metaverse solutions will benefit from the telecom operator’s programme for 6 months."
         },],
         articles: [
           // 
           {
+            title: "Orange Belgium launches the 5th edition of its start-up accelerator program: Orange Fab BeLux",
+            image: "orange-fab-small",
+            link: "https://corporate.orange.be/en/news-medias/orange-belgium-launches-5th-edition-its-start-accelerator-program-orange-fab-belux",
+            txt: "On March 21, registrations will open for the 5th season of the Orange Fab BeLux start-up Accelerator Program. Three selected start-ups will receive support from Orange experts and access to the operator's network for six months..."
+          },{
+            title: "OTIV innovates with self-driving 5G rail vehicles",
+            image: "OTIV",
+            link: "https://business.orange.be/en/discover/news/otiv-innovates-self-driving-5g-rail-vehicles",
+            txt: "“Autonomous driving on rails” by OTIV is one of the 5G use cases supported by the Orange Fab programme. The start-up can count on the expertise of Orange Belgium for the necessary connectivity. “Thanks to the extensive Orange network, we are in touch with potential customers all over Europe,” OTIV co-founder Sam De Smet says."
+          },{
+            title: "5G - Orange installe un « Lab 5G » à Liège également",
+            image: "5G-lab",
+            link: "#",
+            txt: "Après Anvers en octobre dernier, Orange Belgium s’associe avec le hub La Grand Poste pour créer un « 5G Lab » à Liège, annonce l’opérateur mardi."
+          },{
             title: "At MWC 2022, Orange will be presenting its latest network innovations and uses.",
             image: "MWC",
             link: "https://www.orange.com/en/newsroom/press-releases/2022/mwc-2022-orange-will-be-presenting-its-latest-network-innovations-and",

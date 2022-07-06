@@ -4,7 +4,7 @@
   background-image: url("../assets/body/header_home.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 50% 35%;
+  background-position: 50% 68%;
   margin-top: 112px;
   height: 450px;
   display: flex!important;
@@ -34,6 +34,8 @@
       .header_button{
         background-color: $white;
         color: $black;
+        background-color: $orange;
+        color: $white;
         display: inline-block;
         padding: 15px;
         font-size: 0.4em;
@@ -46,8 +48,8 @@
           padding: 0;
         }
         &:hover{
-          background-color: $orange;
-          color: $white;
+          background-color: $white;
+          color: $orange;
         }
       }
 

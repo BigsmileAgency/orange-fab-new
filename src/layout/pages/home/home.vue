@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <!-- <header-sub mainTitle="Orange Fab Belgium & Luxemburg <br><span>Start-up accelerator program</span>"/> -->
-    <header-sub mainTitle="Apply for Season 5<br><a href='/applynow' class='header_button'>Click here</a></span>" :style="{backgroundImage: 'url(' + require('@/assets/body/header_home.jpg') + ')'}"/>
+    <header-sub mainTitle="Discover our<br>Season 5 start-ups!<br><a href='/applynow' class='header_button'>Click here</a></span>" :style="{backgroundImage: 'url(' + require('@/assets/body/header_home.jpg') + ')'}"/>
 
     <el-main class="container" ref="mainContainer">
       <div id="whoWeAre" class="main">
@@ -28,7 +28,7 @@
                   <a class="cta bordered nomob" :href="$t('pages.ourprogram.ServiceOffer.url')" v-html="$t('pages.ourprogram.ServiceOffer.cta')"></a>
                 </el-col>
                 <el-col :xs="24" :sm="24" :md="12" :lg="9" :xl="9">
-                  <img class="theme_picture" :src="require('@/assets/body/theme.png')">
+                  <iframe width="100%" height="315" src="https://www.youtube.com/embed/6IJPlV27mwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </el-col>
               </el-row>
               <a class="cta bordered onlymob" :href="$t('pages.ourprogram.ServiceOffer.url')" v-html="$t('pages.ourprogram.ServiceOffer.cta')"></a>
