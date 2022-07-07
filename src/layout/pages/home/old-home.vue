@@ -24,9 +24,13 @@
             <el-row class="content">
               <h2 class="subtitle" v-html="$t('pages.whoWeAre.season5.title')" style="margin-bottom: 30px"></h2>
               <el-row>
+                <el-col :xs="24" :sm="24" :md="12" :lg="15" :xl="15">
                   <p class="subtext" v-html="$t('pages.whoWeAre.season5.subtitle')" style="margin-bottom: 30px"></p>
-                  <!-- <a class="cta bordered nomob" :href="$t('pages.ourprogram.ServiceOffer.url')" v-html="$t('pages.ourprogram.ServiceOffer.cta')"></a> -->
-                  <iframe width="100%" height="100%" class='iframe-home' src="https://www.youtube.com/embed/6IJPlV27mwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <a class="cta bordered nomob" :href="$t('pages.ourprogram.ServiceOffer.url')" v-html="$t('pages.ourprogram.ServiceOffer.cta')"></a>
+                </el-col>
+                <el-col :xs="24" :sm="24" :md="12" :lg="9" :xl="9">
+                  <iframe width="100%" height="315" src="https://www.youtube.com/embed/6IJPlV27mwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </el-col>
               </el-row>
               <a class="cta bordered onlymob" :href="$t('pages.ourprogram.ServiceOffer.url')" v-html="$t('pages.ourprogram.ServiceOffer.cta')"></a>
             </el-row>

@@ -319,7 +319,7 @@ export var en = {
         },
         season5: {
           title: "Orange Fab Season 5<br/><span>Discover our selected start-ups</span>",
-          subtitle: "On June 1st, 2022, Orange Fab BeLux selected 3 promising start-ups to join its 5th season: Nirli, Virtual Rangers and WithVR.<br/><br/>Our goal for this year: <span>Propose inventive new experiences to our end&nbsp;customers</span> in Belgium and Luxembourg.<br/><br/>Orange Fab BeLux and the selected start-ups will work during the 6 months of the acceleration to implement an innovative project together!<br/><br/>Our Season 5 start-ups:<br/><br/><span>Nirli</span> builds AR, VR and metaverses’ experiences in the sectors of health, building, retail or industry.<br/><br/> Made in Luxembourg, <span>Virtual Rangers</span> develops tailor made VR, AR, Metaverse and gaming experiences for their customers.<br/><br/><span>WithVR</span> creates personalized virtual reality situations so people with speech disabilities and differences can have a safe space to speak.",
+          subtitle: "On June 1st, 2022, Orange Fab BeLux selected 3 promising start-ups to join its 5th season: Nirli, Virtual Rangers and WithVR.<br/>Our goal for this year: <span>Propose inventive new experiences to our end&nbsp;customers</span> in Belgium and Luxembourg.<br/>Orange Fab BeLux and the selected start-ups will work during the 6 months of the acceleration to implement an innovative project together!<br/><br/><b>Our 3 start-ups from Season 5 :</b><br/><br/><span>Nirli</span> builds AR, VR and metaverses’ experiences in the sectors of health, building, retail or industry.<br/> Made in Luxembourg, <span>Virtual Rangers</span> develops tailor made VR, AR, Metaverse and gaming experiences for their customers.<br/><span>WithVR</span> creates personalized virtual reality situations so people with speech disabilities and differences can have a safe space to speak.",
           cta: 'Apply!',
           url: 'applynow',
         },
@@ -389,7 +389,7 @@ export var en = {
       ourprogram: {
         apply:{
           title: "Orange Fab Season 5<br><span>Discover our selected start-ups</span>",
-          intro: "<h3>On June 1st, 2022, Orange Fab BeLux selected 3 promising start-ups<br/>to join its 5th season: Nirli, Virtual Rangers and WithVR.</h3>Our goal for this year: <span>Propose inventive new experiences to our end customers</span> in Belgium and Luxembourg. <br/><br/> Orange Fab BeLux and the selected start-ups will work during the 6 months of the acceleration to implement an innovative project together!<br/><br/>Our Season 5 start-ups: <br/><br/><span>Nirli</span> builds AR, VR and metaverses’ experiences in the sectors of health, building, retail or industry.<br/><br/>Made in Luxembourg, <span>Virtual Rangers</span> develops tailor made VR, AR, Metaverse and gaming experiences for their customers.<br/><br/><span>WithVR</span> creates personalized virtual reality situations so people with speech disabilities and differences can have a safe space to speak.<br/><br/>Applications for the 6th season will open beginning of 2023",
+          intro: "<h3>On June 1st, 2022, Orange Fab BeLux selected 3 promising start-ups<br/>to join its 5th season: Nirli, Virtual Rangers and WithVR.</h3>Our goal for this year: <span>Propose inventive new experiences to our end customers</span> in Belgium and Luxembourg. <br/> Orange Fab BeLux and the selected start-ups will work during the 6 months of the acceleration to implement an innovative project together!<br/><br/><b>Our 3 start-ups from Season 5 :</b><br/><br/><span>Nirli</span> builds AR, VR and metaverses’ experiences in the sectors of health, building, retail or industry.<br/>Made in Luxembourg, <span>Virtual Rangers</span> develops tailor made VR, AR, Metaverse and gaming experiences for their customers.<br/><span>WithVR</span> creates personalized virtual reality situations so people with speech disabilities and differences can have a safe space to speak.<br/>Applications for the 6th season will open beginning of 2023",
         },
         timeline:{
           title: "<span>Timeline</span>",
@@ -571,15 +571,15 @@ export var en = {
           },
         ],
         lastArticles: [{
-          title: "Virtual Rangers, Nirli et withVR rejoignent la 5ème saison du programme d'accélérateur de start-ups d'Orange Belgium : Orange Fab BeLux",
+          title: "Virtual Rangers, Nirli and withVR join the 5th season of Orange Belgium’s start-up accelerator program: Orange Fab BeLux",
           image: "orange-fab",
-          link: "https://corporate.orange.be/fr/news-medias/virtual-rangers-nirli-et-withvr-rejoignent-la-5%C3%A8me-saison-du-programme-dacc%C3%A9l%C3%A9rateur-de",
-          txt: "Au terme d’un processus de présélection rigoureux, et après les présentations des divers participants, Virtual Rangers, Nirli et withVR rejoignent officiellement la 5ème saison du programme Orange Fab. Ce tremplin leur permettra d'innover sur des applications 5G au sein du cadre global du Groupe Orange et de ses 18 Orange Fab à travers le monde."
+          link: "https://corporate.orange.be/en/news-medias/virtual-rangers-nirli-and-withvr-join-5th-season-orange-belgium%E2%80%99s-start-accelerator",
+          txt: "After a thorough preselection and pitch process, Virtual Rangers, Nirli and withVR will be joining the 5th season of the Orange Fab program, allowing them to innovate on 5G applications within the global framework of the Orange Group and its 18 Orange Fabs all over the world. "
         },{
-          title: "Orange Belgium lance un Orange Digital Center, un vaste pôle dédié aux initiatives d’inclusion digitale et d’innovation",
+          title: "Orange Belgium launches an Orange Digital Center, a major hub for initiatives focused on digital inclusion and innovation",
           image: "odc",
-          link: "https://corporate.orange.be/fr/news-medias/orange-belgium-lance-un-orange-digital-center-un-vaste-p%C3%B4le-d%C3%A9di%C3%A9-aux-initiatives-d",
-          txt: "Afin de réduire la fracture numérique, Orange Belgium a ouvert aujourd’hui un Orange Digital Center au cœur de Bruxelles, en présence de Petra De Sutter, Vice-Première ministre et ministre de la Fonction publique, des Entreprises publiques, des Télécommunications et de la Poste, et Mari-Noëlle Jégo-Laveissière, Directrice Générale Adjointe du Groupe Orange, en charge des activités opérationnelles d’Orange en Europe."
+          link: "https://corporate.orange.be/en/news-medias/orange-belgium-launches-orange-digital-center-major-hub-initiatives-focused-digital",
+          txt: "To help reduce the digital divide, Orange Belgium today opened an Orange Digital Center in the heart of Brussels, in the presence of Petra De Sutter, Deputy Prime Minister and Minister of Public Administration, Public Enterprises, Telecommunication and the Postal Services and Mari-Noëlle Jégo-Laveissière, Deputy CEO of Orange Group, in charge of Orange’s operational activities in Europe"
         },{
           title: "Virtual Rangers, Nirli et WithVR, start-up lauréates de la 5ème édition d’Orange Fab AR, VR et Métavers.",
           image: "winners",

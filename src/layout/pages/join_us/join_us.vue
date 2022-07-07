@@ -7,7 +7,10 @@
       <!--  -->
       <div class="content-layout white apply">
         <el-row id='apply' class="content">
-          <steps-layout></steps-layout>
+          <h2 class="subtitle">Registrations are closed.<br/>See you <span>next year</span>.</h2>
+
+
+          <!-- <steps-layout></steps-layout> -->
         </el-row>
       </div>
       <!--  -->
